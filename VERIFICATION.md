@@ -1,4 +1,4 @@
-# Verification receipt â€” 2026-09-08
+# Verification receipt — 2026-09-08
 
 The independent Challenge/Solution comparison passed. NanoDa and Lean's
 default kernel accepted the exported proof of Config23.exists_configuration.
@@ -18,7 +18,7 @@ controls and rebuilt. Raw evidence is in verification/.
 | Pinned v0.4 metadata schema and release checks | PASS |
 | GitHub Actions workflow static validation | PASS, actionlint 1.7.7 |
 | Exported standalone archive build | PASS; 829 jobs, identical module hashes |
-| GitHub-hosted CI | Prepared; not yet run in a public repository |
+| GitHub-hosted CI | PASS ([run 34240050282](https://github.com/wstrinz/configuration-23-4/actions/runs/34240050282)) |
 | Palomar intake/editorial review/registration | Not performed |
 
 The positive Comparison log ends with:

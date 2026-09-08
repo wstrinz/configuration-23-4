@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the archived release used for reproducibility."
 title: "A real affine (23_4) configuration"
 type: software
-version: "v1.0.0"
+version: "v1.0.1"
 date-released: "2026-09-08"
 authors:
   - family-names: Strinz

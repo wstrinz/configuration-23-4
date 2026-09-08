@@ -6,9 +6,9 @@ orbits are
 
 ```
 P1: (1,0,0)
-P2: (0,1,Â±1)
-P3: (0,2,Â±3)
-P4: (1,0,Â±1)
+P2: (0,1,±1)
+P3: (0,2,±3)
+P4: (1,0,±1)
 P5: (3,2 epsilon,2 delta)
 P6: (2,2 epsilon,3 delta)
 P7: (6,2 epsilon,5 delta)
@@ -19,9 +19,9 @@ The eight line orbits, represented by coefficients of ax+by+cz=0, are
 
 ```
 L1: (1,0,0)
-L2: (0,1,Â±1)
-L3: (0,3,Â±2)
-L4: (1,Â±3,0)
+L2: (0,1,±1)
+L3: (0,3,±2)
+L4: (1,±3,0)
 L5: (1,2 epsilon,2 delta)
 L6: (2,9 epsilon,6 delta)
 L7: (2,5 epsilon,2 delta)

@@ -1,8 +1,11 @@
 # Zenodo release and citation
 
-Release `v1.0.0`, dated 2026-09-08, is archived by Zenodo under MIT:
+This repository is archived by Zenodo under MIT. Its stable concept DOI is:
 
 - concept DOI: [10.5281/zenodo.22662692](https://doi.org/10.5281/zenodo.22662692)
+
+The initial release, `v1.0.0`, dated 2026-09-08, has these immutable links:
+
 - version DOI: [10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693)
 - record: https://zenodo.org/records/22662693
 - source release: https://github.com/wstrinz/configuration-23-4/releases/tag/v1.0.0
