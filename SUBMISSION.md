@@ -65,3 +65,7 @@ the immutable `v1.0.1` snapshot.
 Palomar's automated review and independent kernel checks do not establish
 publication priority or constitute human expert peer review. The maintainer
 separately approved permanent registration after reading the completed review.
+
+The later `v1.1.0` GitHub/Zenodo release publishes the broader V4-sector
+evidence. It does not change the scope of Palomar registration v1, which
+remains attached to the `v1.0.1` existence snapshot.

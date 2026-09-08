@@ -53,7 +53,6 @@ assert citation.get('date-released')==zenodo.get('publication_date')
 assert citation.get('doi')=='10.5281/zenodo.22662692'
 assert citation.get('identifiers')==[
  {'type':'doi','value':'10.5281/zenodo.22662692','description':'Concept DOI for the continuing project'},
- {'type':'doi','value':'10.5281/zenodo.22663385','description':'Version DOI for v1.0.1'},
 ]
 assert 'doi' not in zenodo, 'Let the integration allocate each release DOI'
 assert zenodo['access_right']=='open'

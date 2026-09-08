@@ -14,6 +14,12 @@ links:
 It records commit `94fc8964562fa9e246c8c7b1657e2e135bda35f6`, the snapshot registered as
 [PALOMAR-2026-09-08-000004 v1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1).
 
+Release `v1.1.0` adds the E2 witness and polarity, the V4 completeness and
+exclusion receipts, exact classification of the two survivor loci, the
+E1/E2/CT1-S1 combinatorial audit, and the correspondence-ready one-page PDF.
+It is a GitHub/Zenodo evidence release; the Palomar record above remains a
+registration of the narrower `v1.0.1` Lean-existence snapshot.
+
 The initial release, `v1.0.0`, has these immutable links:
 
 - version DOI: [10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693)
@@ -31,12 +37,9 @@ a historical version DOI. Neither identifier belongs to this construction.
 
 ## Verification
 
-Zenodo reports the current record as published with title
-`A real affine (23_4) configuration`, version `v1.0.1`, creator
-`Strinz, Will`, MIT license, open access, and the correct GitHub tag. Its sole
-archive is `wstrinz/configuration-23-4-v1.0.1.zip`, 1,701,318 bytes, with MD5
-`10fc4c6b2a94a7ccba3e654001aa4f21`. The downloaded archive passed a complete
-ZIP integrity test and records the exact release commit in its archive comment.
+The `v1.0.1` record was independently downloaded and integrity-checked before
+the evidence release. The `v1.1.0` record and archive are checked separately
+after the GitHub-Zenodo integration creates them.
 
 The concept DOI belongs in the README badge and CITATION.cff. Do not put it into
 .zenodo.json's `doi` field: that field identifies
