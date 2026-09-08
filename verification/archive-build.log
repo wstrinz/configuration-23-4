@@ -1,0 +1,56 @@
+Release manifest: PASS
+Metadata schema, license declaration, proof surface and dependency pins: PASS
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4.git
+info: mathlib: checking out revision '81a5d257c8e410db227a6665ed08f64fea08e997'
+info: plausible: cloning https://github.com/leanprover-community/plausible
+info: plausible: checking out revision 'e12c1910fe855cbfc38803cd4e55543906d5fa62'
+info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision 'c5d5b8fe6e5158def25cd28eb94e4141ad97c843'
+info: importGraph: cloning https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision '7e9612bf0b9ee66db3cb5b9988a35afc706f5a12'
+info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '6e311e2a844da9b2cc3971187df2fe0066947b93'
+info: aesop: cloning https://github.com/leanprover-community/aesop
+info: aesop: checking out revision 'a7dbf0c63b694e47f425f3dcddbc0e178bb432d3'
+info: Qq: cloning https://github.com/leanprover-community/quote4
+info: Qq: checking out revision '38d591e778f100aec9762bb582f9c7f55f50e9dc'
+info: batteries: cloning https://github.com/leanprover-community/batteries
+info: batteries: checking out revision '023ce7d62a0531e22a5331e20b587817a80d49ff'
+info: Cli: cloning https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision '88679d088c9720c27ebdf2ba4dafe17341747f94'
+✔ [1/5] Built Cache.Cli (347ms)
+✔ [2/5] Built Cache.Lean (414ms)
+✔ [8/26] Built Cache.Cli:c.o (127ms)
+✔ [9/26] Built Cache.Lean:c.o (143ms)
+✔ [10/26] Built Cache.Infra (393ms)
+✔ [11/26] Built Cache.Infra:c.o (175ms)
+✔ [12/26] Built Cache.IO (1.4s)
+✔ [13/26] Built Cache.Hashing (728ms)
+✔ [14/26] Built Cache.Hashing:c.o (412ms)
+✔ [15/26] Built Cache.IO:c.o (1.4s)
+✔ [16/26] Built Cache.Requests (2.1s)
+✔ [17/26] Built Cache.Marker (744ms)
+✔ [18/26] Built Cache.Marker:c.o (136ms)
+✔ [19/26] Built Cache.Query (783ms)
+✔ [20/26] Built Cache.Query:c.o (374ms)
+✔ [21/26] Built Cache.Warning (820ms)
+✔ [22/26] Built Cache.Warning:c.o (285ms)
+✔ [23/26] Built Cache.Requests:c.o (3.2s)
+✔ [24/26] Built Cache.Main (1.7s)
+✔ [25/26] Built Cache.Main:c.o (908ms)
+✔ [26/26] Built cache:exe (812ms)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Decompressing 740 already-cached file(s) (70 already decompressed)
+No files to download
+Decompressed 740 already-cached file(s)
+Completed successfully in 2785 ms!
+⚠ [826/829] Built Challenge (1.7s)
+warning: Challenge.lean:32:8: declaration uses `sorry`
+ℹ [828/829] Built Solution (35s)
+info: Solution.lean:93:0: 'Config23.exists_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (829 jobs).
+'witness_valid' does not depend on any axioms
+'integer_certificate_exists' does not depend on any axioms
+58953d9ba2b26f70129e04dd22ec4cdf224430f862dcdcb0569b4f88b9ac0f85  Challenge.lean
+54758e9a6a7e326f8833c46cf67651630b9dfe02438f758f32aea2551709b61d  Solution.lean

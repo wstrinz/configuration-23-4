@@ -1,0 +1,8 @@
+.lake/
+.cache/
+__pycache__/
+negative-*/
+*.olean
+*.ilean
+*.trace
+release.zip

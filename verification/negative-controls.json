@@ -1,0 +1,20 @@
+[
+  {
+    "control": "moved_point",
+    "exit_code": 1,
+    "seconds": 34.315,
+    "output": "Solution.lean:85:61: error: unsolved goals\n\u22a2 False\n'Config23.exists_configuration' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n"
+  },
+  {
+    "control": "weakened_theorem",
+    "exit_code": 1,
+    "seconds": 7.34,
+    "output": "Building Challenge\n\u26a0 [771/772] Replayed Challenge\nwarning: Challenge.lean:32:8: declaration uses `sorry`\nBuild completed successfully (772 jobs).\nExporting #[Nat, String, String.mk, Char, Char.ofNat, List, Quot, Quot.mk, Quot.lift, Quot.ind, Config23.exists_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList] from Challenge\nBuilding Solution\n\u2139 [826/827] Replayed Solution\ninfo: Solution.lean:92:0: 'Config23.exists_configuration' does not depend on any axioms\nBuild completed successfully (827 jobs).\nExporting #[Nat, String, String.mk, Char, Char.ofNat, List, Quot, Quot.mk, Quot.lift, Quot.ind, Config23.exists_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList] from Solution\nuncaught exception: Challenge and solution theorem statement do not match: 'Config23.exists_configuration'\n"
+  },
+  {
+    "control": "unproved_solution",
+    "exit_code": 1,
+    "seconds": 42.687,
+    "output": "Building Challenge\n\u26a0 [771/772] Replayed Challenge\nwarning: Challenge.lean:32:8: declaration uses `sorry`\nBuild completed successfully (772 jobs).\nExporting #[Nat, String, String.mk, Char, Char.ofNat, List, Quot, Quot.mk, Quot.lift, Quot.ind, Config23.exists_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList] from Challenge\nBuilding Solution\n\u26a0 [826/827] Built Solution (34s)\nwarning: Solution.lean:89:8: declaration uses `sorry`\ninfo: Solution.lean:92:0: 'Config23.exists_configuration' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\nBuild completed successfully (827 jobs).\nExporting #[Nat, String, String.mk, Char, Char.ofNat, List, Quot, Quot.mk, Quot.lift, Quot.ind, Config23.exists_configuration, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList] from Solution\nuncaught exception: Illegal axiom detected: 'sorryAx'\n"
+  }
+]

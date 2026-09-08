@@ -1,0 +1,101 @@
+version: "v0.4"
+project:
+  name: "A real affine (23_4) configuration"
+  description: >-
+    An explicit construction of 23 distinct points and 23 distinct straight
+    lines in the real affine plane, with exactly four selected incidences
+    at every point and every line. Lean verifies the construction using
+    rational coordinates interpreted in the real numbers.
+  authors: ["Will Strinz"]
+  responsible_maintainers: ["Will Strinz"]
+  license: "MIT"
+repository:
+  role: "substantive-development"
+classification:
+  arxiv: ["math.CO", "math.MG"]
+  msc2020: ["51A45", "52C30"]
+sources:
+  - title: "The explicit rational (23_4) construction supplied in this development"
+    type: "original-proof"
+    relationship: "other"
+    location: "PROOF.md and coordinates.json"
+    note: >-
+      This development presents its own explicit witness and proof. The
+      result-origin designation records provenance, not a claim of priority
+      over every published or circulating construction. See LITERATURE.md.
+  - title: "(22_4) and (26_4) configurations of lines"
+    authors: ["Michael Cuntz"]
+    id: "https://doi.org/10.26493/1855-3974.1402.733"
+    type: "article"
+    relationship: "background"
+    location: "Ars Mathematica Contemporanea 14 (2018), 157–163; section 2"
+    author_endorsement: "not-contacted"
+    note: "Supplies the standard definition and the historical remaining existence case."
+  - title: "Eventually, geometric (n_k) configurations exist for all n"
+    authors: ["Leah Wrenn Berman", "Gábor Gévay", "Tomaž Pisanski"]
+    id: "https://arxiv.org/abs/2104.00045"
+    type: "preprint"
+    relationship: "background"
+    location: "2021 preprint, page 2"
+    author_endorsement: "not-contacted"
+    note: "A dated explicit statement that the geometric 23_4 existence question was open."
+related_formalizations: []
+status:
+  scope: >-
+    The compared theorem is unconditional existence over the real affine
+    plane, expressed by finite lists of coordinate pairs and nondegenerate,
+    pairwise nonproportional affine line equations. Counts include every
+    selected point-line pair. Rationality is visible in the explicit
+    coordinate expressions but is not a separate quantified theorem.
+    No census classification, uniqueness theorem or publication-priority
+    theorem is asserted. Challenge has one deliberate theorem hole;
+    the proof-bearing Solution has none.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "Config23.exists_configuration"
+      file: "Solution.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+      literature_dependencies: []
+automation:
+  methods:
+    - method: "agent"
+      models: ["OpenAI Codex (GPT-6)"]
+      framework: "Codex"
+      tool_setup: "Exact Python/Node arithmetic, Lean norm_num and decide, Comparator/NanoDa tooling"
+      prompting_notes: "Human-directed construction, adversarial verification and submission preparation."
+  spend_usd: "not tracked"
+  notes: >-
+    Will Strinz directed the research and requested independent exact checks.
+    Codex generated and audited the formalization and packaging. Search and
+    computer algebra aided discovery; the formal theorem depends only on
+    the explicit coordinate proof. See VERIFICATION.md for executed checks.
+fidelity:
+  divergences: >-
+    Uses the finite real affine plane rather than homogeneous projective
+    coordinates. A projective change puts all selected points in this chart.
+    The finite affine construction is sufficient for projective existence.
+    Affine lines are represented by coefficient triples with explicit
+    nondegeneracy and nonproportionality conditions; see STATEMENT_AUDIT.md.
+review:
+  status: "self-assessed with automated adversarial checks"
+  reviewers: []
+  notes: >-
+    No independent human peer review or source-author endorsement is claimed.
+    The maintainer approved authorship and licensing. Mechanical evidence
+    and its limits are recorded in VERIFICATION.md. Palomar review and
+    registration have not occurred.
+alignment:
+  namespace: "Config23"
+  statements:
+    - source: "PROOF.md explicit construction and degree argument"
+      lean: "Config23.exists_configuration"
+      module: "Solution"
+      status: "proved"
+      note: "23 distinct real points and affine lines with exact degree four."
+acknowledgements: >-
+  Lean, Mathlib, Comparator, Lean4Export and NanoDa; PalomarTemplate's
+  verification scripts, with provenance and licenses in THIRD_PARTY.md.

@@ -1,0 +1,5 @@
+2026-09-08, Ubuntu/WSL
+Command: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.7 .github/workflows/verify.yml
+Exit code: 0
+No workflow diagnostics. Go downloaded the pinned linter and its dependencies.
+This checks workflow syntax and semantics; it is not a GitHub-hosted CI run.

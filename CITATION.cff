@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the archived release used for reproducibility; see ZENODO.md for DOI setup."
+title: "A real affine (23_4) configuration"
+type: software
+authors:
+  - family-names: Strinz
+    given-names: Will
+abstract: >-
+  An explicit configuration of 23 distinct real affine points and 23 distinct
+  lines, with exactly four selected incidences at every point and line.
+  Includes rational coordinates, a compact construction, an exact figure,
+  a Lean existence proof, and independently checked proof verification records.
+  Publication priority is not asserted.
+keywords:
+  - incidence geometry
+  - geometric configurations
+  - "23_4"
+  - Lean
+  - formal proof
+  - rational construction
+license: MIT
+repository-code: "https://github.com/wstrinz/configuration-23-4"
+# Version, release date and DOI are omitted until actually known.
+# Never copy the example repository's DOI into this project.

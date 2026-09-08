@@ -1,0 +1,9 @@
+{
+  "title": "A real affine (23_4) configuration",
+  "description": "An explicit configuration of 23 distinct real affine points and 23 distinct lines, with exactly four selected incidences at every point and line. Includes rational coordinates, a compact construction, an exact figure, a Lean existence proof, and independently checked proof verification records. Publication priority is not asserted. The sharing cover is generated promotional artwork; the exact SVG and coordinates are the mathematical reference.",
+  "creators": [{"name": "Strinz, Will"}],
+  "keywords": ["incidence geometry", "geometric configurations", "23_4", "Lean", "formal proof", "rational construction"],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}
