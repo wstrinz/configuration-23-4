@@ -1,0 +1,94 @@
+{
+ "A1_invalid_action": {
+  "baseline_clean": true,
+  "mutants": [
+   {
+    "mutant": "s3 := s1 (breaks the XOR composition law)",
+    "detected": true,
+    "first_violation": [
+     "rep:xor_law_fails:g=1,h=2"
+    ]
+   },
+   {
+    "mutant": "transpose two images of s1 (no longer an involution/rep)",
+    "detected": true,
+    "first_violation": [
+     "rep:xor_law_fails:g=1,h=2"
+    ]
+   },
+   {
+    "mutant": "s3 := identity (unfaithful action)",
+    "detected": true,
+    "first_violation": [
+     "rep:xor_law_fails:g=1,h=2"
+    ]
+   },
+   {
+    "mutant": "one line perturbed (V4 no longer preserves the line set)",
+    "detected": true,
+    "first_violation": [
+     "n4:point_degrees=[3, 4, 5]"
+    ]
+   },
+   {
+    "mutant": "representation conjugated by a non-automorphism transposition",
+    "detected": true,
+    "first_violation": [
+     "equi:g=1_does_not_preserve_line_set"
+    ]
+   }
+  ],
+  "all_detected": true,
+  "A1e_aut_v4_relabelling": {
+   "still_a_valid_action": true,
+   "inventory_before": [
+    1,
+    [
+     2,
+     0,
+     1
+    ],
+    4,
+    1,
+    [
+     2,
+     1,
+     0
+    ],
+    4
+   ],
+   "inventory_after": [
+    1,
+    [
+     2,
+     1,
+     0
+    ],
+    4,
+    1,
+    [
+     2,
+     0,
+     1
+    ],
+    4
+   ],
+   "declared_cell": "n23-fence-b01-bs10",
+   "cell_recomputed_after_relabelling": "n23-fence-b10-bs01",
+   "inventory_cell_binding_detects_it": true
+  }
+ },
+ "A3_wrong_fixed_index": {
+  "violations": [
+   "GEO_ThmA_index_mismatch:axis=[1],vertex=[2]"
+  ],
+  "index_mismatch_flagged": true
+ },
+ "A5_digest_truncation": {
+  "n_digests": 5299,
+  "n_distinct_16hex_prefixes": 5299,
+  "colliding_prefixes": {},
+  "filename_equals_digest_prefix_for_all": true,
+  "no_silent_merge_possible": true
+ }
+}

@@ -1,0 +1,8 @@
+   .. leaves=50000 types=128 (163s)
+   .. leaves=100000 types=669 (361s)
+   .. leaves=150000 types=669 (562s)
+   .. leaves=200000 types=669 (783s)
+   .. leaves=250000 types=669 (977s)
+   .. leaves=300000 types=669 (1196s)
+{"cell": "n23-fence-b01-bs21", "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 669, "leaves": 339456, "nodes": 635388, "rejections": {"pair": 102, "feasible": 216000, "notlexmin": 744064}, "seconds": 1349.19}
+TOTAL distinct types: 669

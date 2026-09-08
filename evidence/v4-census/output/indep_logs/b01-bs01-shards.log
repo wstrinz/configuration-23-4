@@ -1,0 +1,34 @@
+{"cell": "n23-fence-b01-bs01", "shard": [3, 0], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 59, "leaves": 11776, "nodes": 70245, "rejections": {"feasible": 45288, "notlexmin": 82056}, "seconds": 159.34}
+TOTAL distinct types: 59
+{"cell": "n23-fence-b01-bs01", "shard": [3, 1], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 59, "leaves": 11776, "nodes": 70245, "rejections": {"feasible": 45288, "notlexmin": 82056}, "seconds": 157.11}
+TOTAL distinct types: 59
+   .. leaves=50000 types=370 (268s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 10], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 412, "leaves": 97216, "nodes": 284597, "rejections": {"feasible": 66776, "notlexmin": 215688}, "seconds": 492.45}
+TOTAL distinct types: 412
+   .. leaves=50000 types=370 (271s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 11], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 412, "leaves": 97216, "nodes": 284597, "rejections": {"feasible": 66776, "notlexmin": 215688}, "seconds": 494.5}
+TOTAL distinct types: 412
+   .. leaves=50000 types=890 (348s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 2], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 55588, "notlexmin": 137292}, "seconds": 401.89}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (351s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 3], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 55588, "notlexmin": 137292}, "seconds": 404.56}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (346s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 4], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 55588, "notlexmin": 137292}, "seconds": 399.3}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (352s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 5], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 55588, "notlexmin": 137292}, "seconds": 407.66}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (331s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 6], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 56932, "notlexmin": 145740}, "seconds": 396.66}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (339s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 7], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 56932, "notlexmin": 145740}, "seconds": 400.41}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (341s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 8], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 56932, "notlexmin": 145740}, "seconds": 399.89}
+TOTAL distinct types: 890
+   .. leaves=50000 types=890 (328s)
+{"cell": "n23-fence-b01-bs01", "shard": [3, 9], "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 890, "leaves": 56960, "nodes": 174509, "rejections": {"feasible": 56932, "notlexmin": 145740}, "seconds": 390.25}
+TOTAL distinct types: 890

@@ -1,0 +1,962 @@
+{
+  "status": "PASS",
+  "scope": {
+    "requested_label": "Temperance 0.1.0",
+    "named_package_located": false,
+    "revision": "Replay all concrete independent proof objects underlying the 5,393 excluded action loci: six order-certificate batches, seven signed-torus batches, the 34 shared BS21 quotient-template certificates, all 980 continuation certificates, and the pinned coverage/duality joins.  The number 5,393 counts action loci, not one certificate file per action.",
+    "authority": "INDEPENDENT_REPLAY_CANDIDATE",
+    "decides": [],
+    "graph_effect": "NONE"
+  },
+  "git_head": "6c300a4c14e9ef117d8c685f1577c7633a023e9e",
+  "wall_seconds": 835.2030000000013,
+  "commands": [
+    {
+      "label": "order_b01-bs01",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b01-bs01.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b01-bs01.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788890810.8478673,
+      "wall_seconds": 167.65600000000268,
+      "exit_code": 0,
+      "log": "order_b01-bs01.log"
+    },
+    {
+      "label": "order_b01-bs10",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b01-bs10.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b01-bs10.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788890978.522961,
+      "wall_seconds": 164.35900000000402,
+      "exit_code": 0,
+      "log": "order_b01-bs10.log"
+    },
+    {
+      "label": "order_b01-bs12",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b01-bs12.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b01-bs12.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891142.8930979,
+      "wall_seconds": 11.906000000002678,
+      "exit_code": 0,
+      "log": "order_b01-bs12.log"
+    },
+    {
+      "label": "order_b01-bs21",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b01-bs21.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b01-bs21.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891154.8193226,
+      "wall_seconds": 10.968999999997322,
+      "exit_code": 0,
+      "log": "order_b01-bs21.log"
+    },
+    {
+      "label": "order_b12-bs01",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b12-bs01.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b12-bs01.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891165.8032396,
+      "wall_seconds": 10.860000000000582,
+      "exit_code": 0,
+      "log": "order_b12-bs01.log"
+    },
+    {
+      "label": "order_b12-bs10",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_order.py",
+        "--input",
+        "certificates_b12-bs10.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_order_b12-bs10.json",
+        "--seconds",
+        "1200",
+        "--adversaries"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891176.677883,
+      "wall_seconds": 10.843999999997322,
+      "exit_code": 0,
+      "log": "order_b12-bs10.log"
+    },
+    {
+      "label": "torus_bs01_sweep",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs01_sweep.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs01_sweep.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891187.5327375,
+      "wall_seconds": 4.9210000000020955,
+      "exit_code": 0,
+      "log": "torus_bs01_sweep.log"
+    },
+    {
+      "label": "torus_bs01_sweep2",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs01_sweep2.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs01_sweep2.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891192.4681094,
+      "wall_seconds": 3.875,
+      "exit_code": 0,
+      "log": "torus_bs01_sweep2.log"
+    },
+    {
+      "label": "torus_bs10_pilot",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs10_pilot.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs10_pilot.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891196.3393154,
+      "wall_seconds": 1.25,
+      "exit_code": 0,
+      "log": "torus_bs10_pilot.log"
+    },
+    {
+      "label": "torus_bs10_sweep",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs10_sweep.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs10_sweep.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891197.594063,
+      "wall_seconds": 4.188000000001921,
+      "exit_code": 0,
+      "log": "torus_bs10_sweep.log"
+    },
+    {
+      "label": "torus_bs10_sweep2",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs10_sweep2.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs10_sweep2.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891201.799491,
+      "wall_seconds": 3.2810000000026776,
+      "exit_code": 0,
+      "log": "torus_bs10_sweep2.log"
+    },
+    {
+      "label": "torus_bs12",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_bs12.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_bs12.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891205.0972557,
+      "wall_seconds": 1.9530000000013388,
+      "exit_code": 0,
+      "log": "torus_bs12.log"
+    },
+    {
+      "label": "torus_remaining30",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\verify_torus.py",
+        "--input",
+        "torus_certificates_remaining30.json",
+        "--output",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\tmp\\temperance-replay-20260908-p2\\verification_torus_remaining30.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891207.069362,
+      "wall_seconds": 0.9219999999986612,
+      "exit_code": 0,
+      "log": "torus_remaining30.log"
+    },
+    {
+      "label": "bs21_quotient_templates",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "check.py"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\v4-b01-bs21-quotient-certificate-repair-v1\\code",
+      "started_unix": 1788891208.002424,
+      "wall_seconds": 206.06300000000192,
+      "exit_code": 0,
+      "log": "bs21_quotient_templates.log"
+    },
+    {
+      "label": "continuation_alternate_00",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "alternate_00.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891414.4892123,
+      "wall_seconds": 0.9219999999986612,
+      "exit_code": 0,
+      "log": "continuation_alternate_00.log"
+    },
+    {
+      "label": "continuation_alternate_01",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "alternate_01.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891415.4255245,
+      "wall_seconds": 0.9530000000013388,
+      "exit_code": 0,
+      "log": "continuation_alternate_01.log"
+    },
+    {
+      "label": "continuation_alternate_02",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "alternate_02.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891416.3925152,
+      "wall_seconds": 0.8120000000053551,
+      "exit_code": 0,
+      "log": "continuation_alternate_02.log"
+    },
+    {
+      "label": "continuation_alternate_03",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "alternate_03.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891417.2246683,
+      "wall_seconds": 0.8910000000032596,
+      "exit_code": 0,
+      "log": "continuation_alternate_03.log"
+    },
+    {
+      "label": "continuation_alternate_04",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "alternate_04.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891418.1238186,
+      "wall_seconds": 0.9839999999967404,
+      "exit_code": 0,
+      "log": "continuation_alternate_04.log"
+    },
+    {
+      "label": "continuation_bs01_000",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01_000.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891419.115105,
+      "wall_seconds": 7.953000000001339,
+      "exit_code": 0,
+      "log": "continuation_bs01_000.log"
+    },
+    {
+      "label": "continuation_bs01b_000",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_000.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891427.077384,
+      "wall_seconds": 4.73399999999674,
+      "exit_code": 0,
+      "log": "continuation_bs01b_000.log"
+    },
+    {
+      "label": "continuation_bs01b_001",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_001.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891431.8207095,
+      "wall_seconds": 32.21899999999732,
+      "exit_code": 0,
+      "log": "continuation_bs01b_001.log"
+    },
+    {
+      "label": "continuation_bs01b_002",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_002.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891464.0432396,
+      "wall_seconds": 5.953000000001339,
+      "exit_code": 0,
+      "log": "continuation_bs01b_002.log"
+    },
+    {
+      "label": "continuation_bs01b_003",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_003.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891469.9997485,
+      "wall_seconds": 6.671999999998661,
+      "exit_code": 0,
+      "log": "continuation_bs01b_003.log"
+    },
+    {
+      "label": "continuation_bs01b_004",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_004.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891476.672179,
+      "wall_seconds": 17.125,
+      "exit_code": 0,
+      "log": "continuation_bs01b_004.log"
+    },
+    {
+      "label": "continuation_bs01b_005",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_005.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891493.8165553,
+      "wall_seconds": 7.2189999999973224,
+      "exit_code": 0,
+      "log": "continuation_bs01b_005.log"
+    },
+    {
+      "label": "continuation_bs01b_006",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_006.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891501.0548656,
+      "wall_seconds": 6.01600000000326,
+      "exit_code": 0,
+      "log": "continuation_bs01b_006.log"
+    },
+    {
+      "label": "continuation_bs01b_007",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_007.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891507.0787165,
+      "wall_seconds": 6.625,
+      "exit_code": 0,
+      "log": "continuation_bs01b_007.log"
+    },
+    {
+      "label": "continuation_bs01b_008",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_008.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891513.7166848,
+      "wall_seconds": 46.578999999997905,
+      "exit_code": 0,
+      "log": "continuation_bs01b_008.log"
+    },
+    {
+      "label": "continuation_bs01b_009",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs01b_009.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891560.3053033,
+      "wall_seconds": 2.6560000000026776,
+      "exit_code": 0,
+      "log": "continuation_bs01b_009.log"
+    },
+    {
+      "label": "continuation_bs10_000",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_000.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891562.9645603,
+      "wall_seconds": 2.312999999994645,
+      "exit_code": 0,
+      "log": "continuation_bs10_000.log"
+    },
+    {
+      "label": "continuation_bs10_001",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_001.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891565.2907715,
+      "wall_seconds": 2.375,
+      "exit_code": 0,
+      "log": "continuation_bs10_001.log"
+    },
+    {
+      "label": "continuation_bs10_002",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_002.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891567.6807973,
+      "wall_seconds": 2.4530000000013388,
+      "exit_code": 0,
+      "log": "continuation_bs10_002.log"
+    },
+    {
+      "label": "continuation_bs10_003",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_003.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891570.138826,
+      "wall_seconds": 2.3909999999959837,
+      "exit_code": 0,
+      "log": "continuation_bs10_003.log"
+    },
+    {
+      "label": "continuation_bs10_004",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_004.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891572.5357676,
+      "wall_seconds": 2.3280000000013388,
+      "exit_code": 0,
+      "log": "continuation_bs10_004.log"
+    },
+    {
+      "label": "continuation_bs10_005",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_005.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891574.8844204,
+      "wall_seconds": 2.8439999999973224,
+      "exit_code": 0,
+      "log": "continuation_bs10_005.log"
+    },
+    {
+      "label": "continuation_bs10_006",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_006.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891577.7412207,
+      "wall_seconds": 2.25,
+      "exit_code": 0,
+      "log": "continuation_bs10_006.log"
+    },
+    {
+      "label": "continuation_bs10_007",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_007.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891579.9943576,
+      "wall_seconds": 2.2969999999986612,
+      "exit_code": 0,
+      "log": "continuation_bs10_007.log"
+    },
+    {
+      "label": "continuation_bs10_008",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "bs10_008.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891582.2998445,
+      "wall_seconds": 6.875,
+      "exit_code": 0,
+      "log": "continuation_bs10_008.log"
+    },
+    {
+      "label": "continuation_finish_02",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "finish_02.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891589.1852756,
+      "wall_seconds": 1.2030000000013388,
+      "exit_code": 0,
+      "log": "continuation_finish_02.log"
+    },
+    {
+      "label": "continuation_finish_03",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "finish_03.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891590.3975837,
+      "wall_seconds": 23.375,
+      "exit_code": 0,
+      "log": "continuation_finish_03.log"
+    },
+    {
+      "label": "continuation_finish_07",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "finish_07.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891613.7869835,
+      "wall_seconds": 26.82800000000134,
+      "exit_code": 0,
+      "log": "continuation_finish_07.log"
+    },
+    {
+      "label": "continuation_pilot_000",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_new.py",
+        "--input",
+        "pilot_000.json",
+        "--seconds",
+        "1200"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891640.6343622,
+      "wall_seconds": 1.735000000000582,
+      "exit_code": 0,
+      "log": "continuation_pilot_000.log"
+    },
+    {
+      "label": "continuation_quadratic_guard",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "verify_guard.py",
+        "--input",
+        "quadratic_guard.json"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\_temperance_replay_20260908_p2_runtime",
+      "started_unix": 1788891642.3745818,
+      "wall_seconds": 0.6559999999954016,
+      "exit_code": 0,
+      "log": "continuation_quadratic_guard.log"
+    },
+    {
+      "label": "v1_coverage_join",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\fresh-look-real-order-v1\\coverage_audit.py"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891643.0254092,
+      "wall_seconds": 1.2340000000040163,
+      "exit_code": 0,
+      "log": "v1_coverage_join.log"
+    },
+    {
+      "label": "v2_coverage_join",
+      "command": [
+        "C:\\Users\\wstri\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-S",
+        "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23\\artifacts\\signed-torus-push-v2\\audit_coverage.py"
+      ],
+      "cwd": "C:\\Users\\wstri\\dev\\math-research\\campaigns\\cfg23",
+      "started_unix": 1788891644.2562747,
+      "wall_seconds": 1.610000000000582,
+      "exit_code": 0,
+      "log": "v2_coverage_join.log"
+    }
+  ],
+  "concrete_result_rows_replayed": 5136,
+  "distinct_action_ids_in_direct_receipts": 5136,
+  "failures": [],
+  "bs21_shared_templates": {
+    "templates_passing": 34,
+    "actions_covered": 453,
+    "all_pass": false
+  },
+  "declared_final_action_count": 5395,
+  "declared_excluded_action_count": 5393,
+  "declared_realized_action_count": 2,
+  "note": "Per-certificate rows cover direct proof records. Shared template certificates and duality transports make the final action-locus count a coverage join rather than a one-row-per-certificate count.",
+  "intermediate_unresolved_rows": [
+    {
+      "certificate_file": "certificates_b01-bs01.json",
+      "pair_id": "1fb95a7dd34e86e5-f8f4815185db6fd2",
+      "status": "NO_EXACT_DUAL"
+    },
+    {
+      "certificate_file": "torus_certificates_bs01_sweep2.json",
+      "pair_id": "4612725376ac2fbd-20c5cc82629ccb6f",
+      "status": "UNRESOLVED"
+    },
+    {
+      "certificate_file": "torus_certificates_bs01_sweep2.json",
+      "pair_id": "9d483b9231b679ce-22e7a239c591d50f",
+      "status": "UNRESOLVED"
+    },
+    {
+      "certificate_file": "torus_certificates_bs01_sweep2.json",
+      "pair_id": "bce7595e77edcd99-2c29eb3df6ddcc22",
+      "status": "UNRESOLVED"
+    },
+    {
+      "certificate_file": "torus_certificates_bs01_sweep2.json",
+      "pair_id": "da8ba43954dfba87-3538892a3c317b7c",
+      "status": "UNRESOLVED"
+    },
+    {
+      "certificate_file": "bs01b_000.json",
+      "pair_id": "12fd5c7ea49a0cfb-bb1149bcc115344d",
+      "status": "CAPPED",
+      "reason": "substitution growth cap; last bounded checkpoint retained"
+    },
+    {
+      "certificate_file": "bs01b_000.json",
+      "pair_id": "143bd9ddf2aa1263-990b67811d33c3fb",
+      "status": "RESIDUAL",
+      "reason": "no licensed elimination or nonzero cofactor remainder"
+    },
+    {
+      "certificate_file": "bs01b_003.json",
+      "pair_id": "6f1e82a0141d799b-99d88ee8658f521f",
+      "status": "CAPPED",
+      "reason": "substitution growth cap; last bounded checkpoint retained"
+    },
+    {
+      "certificate_file": "bs01b_004.json",
+      "pair_id": "83eaf92e977360ed-639dda0d05d313cd",
+      "status": "CAPPED",
+      "reason": "cofactor time cap"
+    },
+    {
+      "certificate_file": "bs01b_005.json",
+      "pair_id": "93ae0b893ee60287-9a6b7d4f46d84767",
+      "status": "CAPPED",
+      "reason": "elimination time cap"
+    },
+    {
+      "certificate_file": "bs01b_005.json",
+      "pair_id": "9866d52186de99e6-81a4959f7e358374",
+      "status": "CAPPED",
+      "reason": "cofactor time cap"
+    },
+    {
+      "certificate_file": "bs01b_006.json",
+      "pair_id": "bf667f6de74d26ae-8b2f2d49d47d9cff",
+      "status": "RESIDUAL",
+      "reason": "no licensed elimination or nonzero cofactor remainder"
+    },
+    {
+      "certificate_file": "bs01b_007.json",
+      "pair_id": "cebbb53d7b449d14-e3e7b8f9938235bd",
+      "status": "CAPPED",
+      "reason": "substitution growth cap; last bounded checkpoint retained"
+    },
+    {
+      "certificate_file": "bs01b_007.json",
+      "pair_id": "d4d475e5efd88c69-9abde7ea35851036",
+      "status": "CAPPED",
+      "reason": "cofactor time cap"
+    },
+    {
+      "certificate_file": "bs01b_008.json",
+      "pair_id": "d7fe7c6a330a8d27-5e462d336f56ca8f",
+      "status": "CAPPED",
+      "reason": "elimination time cap"
+    },
+    {
+      "certificate_file": "bs10_003.json",
+      "pair_id": "7309c1e188360585-bc372d1fe46f0e80",
+      "status": "RESIDUAL",
+      "reason": "no licensed elimination or nonzero cofactor remainder"
+    }
+  ],
+  "intermediate_unresolved_later_closed": 14,
+  "expected_positive_residuals": [
+    {
+      "certificate_file": "bs01b_000.json",
+      "pair_id": "143bd9ddf2aa1263-990b67811d33c3fb",
+      "status": "RESIDUAL",
+      "reason": "no licensed elimination or nonzero cofactor remainder"
+    },
+    {
+      "certificate_file": "bs10_003.json",
+      "pair_id": "7309c1e188360585-bc372d1fe46f0e80",
+      "status": "RESIDUAL",
+      "reason": "no licensed elimination or nonzero cofactor remainder"
+    }
+  ],
+  "reconciliation": "Fourteen nonterminal shard outcomes were closed by later proof records. The only two terminal residuals are exactly the two realized actions; they are positive witnesses and are not exclusion failures.",
+  "stdlib_duality_join": {
+    "status": "PASS",
+    "authority": "INDEPENDENT_REPLAY_CANDIDATE",
+    "decides": [],
+    "graph_effect": "NONE",
+    "source_boundary": "Hash-pinned retained records from the accepted independent census audit; no producer import and no recomputation of canonical digests.",
+    "manifest_sha256": "b19e7bd51cf43dcb7b5fd1f2023e9f0054a612ec0e97f61622ef3d2b69143492",
+    "bare_types": 5299,
+    "actions": 5395,
+    "distinct_primal_digests": 5395,
+    "distinct_dual_digests": 5395,
+    "dual_multiset_equal": true,
+    "cell_reciprocity": {
+      "n23-fence-b01-bs01->n23-fence-b01-bs01": 1361,
+      "n23-fence-b01-bs10->n23-fence-b01-bs10": 1286,
+      "n23-fence-b01-bs12->n23-fence-b12-bs01": 699,
+      "n23-fence-b01-bs21->n23-fence-b12-bs10": 675,
+      "n23-fence-b12-bs01->n23-fence-b01-bs12": 699,
+      "n23-fence-b12-bs10->n23-fence-b01-bs21": 675
+    }
+  },
+  "scope_limitations": [
+    "No package named Temperance or version 0.1.0 exists in the pinned workspace.",
+    "The original independent duality program imports NetworkX and therefore cannot run under python -S. A stdlib-only replacement verifies the hash-pinned independent audit records, the 5,395-action primal/dual digest multiset equality, and cell reciprocity; it does not recompute the canonical digests.",
+    "The final 5,393 count is a coverage join over direct action certificates, 34 shared quotient-template certificates, and duality transports; it is not a corpus of 5,393 separate certificate files."
+  ]
+}

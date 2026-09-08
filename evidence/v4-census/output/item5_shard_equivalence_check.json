@@ -1,0 +1,13 @@
+{
+ "shards": 12,
+ "all_complete": true,
+ "sharded_union_types": 669,
+ "sharded_total_leaves": 339456,
+ "sharded_total_nodes": 635432,
+ "unsharded_types": 669,
+ "unsharded_leaves": 339456,
+ "unsharded_nodes": 635388,
+ "types_match": true,
+ "leaves_match": true,
+ "nodes_note": "sharded node total exceeds unsharded because each shard re-walks the shared prefix"
+}

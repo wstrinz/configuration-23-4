@@ -1,0 +1,16 @@
+{
+ "n": 15,
+ "brute_force_labelled": 64,
+ "brute_force_fence_valid_types": 1,
+ "line_inventories_seen": {
+  "((2, 0, 1), 2, (2, 0, 1), 2)": 64
+ },
+ "normalised_per_cell": {
+  "(0, 1)": 1,
+  "(1, 0)": 0
+ },
+ "normalised_union": 1,
+ "SET_EQUALITY_bruteforce_vs_union": true,
+ "n_missing": 0,
+ "n_extra": 0
+}

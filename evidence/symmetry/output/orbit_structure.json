@@ -1,0 +1,145 @@
+{
+  "all_match": true,
+  "records": [
+    {
+      "n": 2,
+      "kind": "cyclic",
+      "group_order": 2,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 1,
+        "special_on_L_1": 1,
+        "special_on_L_2": 1,
+        "generic_point": 2
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 1,
+        "special_on_L_1": 1,
+        "special_on_L_2": 1,
+        "generic_point": 2
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 4,
+      "kind": "cyclic",
+      "group_order": 4,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 2,
+        "special_on_L_1": 2,
+        "special_on_L_2": 2,
+        "generic_point": 4
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 2,
+        "special_on_L_1": 2,
+        "special_on_L_2": 2,
+        "generic_point": 4
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 8,
+      "kind": "cyclic",
+      "group_order": 8,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 4,
+        "special_on_L_1": 4,
+        "special_on_L_2": 4,
+        "generic_point": 8
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 4,
+        "special_on_L_1": 4,
+        "special_on_L_2": 4,
+        "generic_point": 8
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 16,
+      "kind": "cyclic",
+      "group_order": 16,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 8,
+        "special_on_L_1": 8,
+        "special_on_L_2": 8,
+        "generic_point": 16
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 8,
+        "special_on_L_1": 8,
+        "special_on_L_2": 8,
+        "generic_point": 16
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 2,
+      "kind": "dihedral",
+      "group_order": 4,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 2,
+        "special_on_L_1": 1,
+        "special_on_L_2": 1,
+        "generic_point": 4
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 2,
+        "special_on_L_1": 1,
+        "special_on_L_2": 1,
+        "generic_point": 4
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 4,
+      "kind": "dihedral",
+      "group_order": 8,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 4,
+        "special_on_L_1": 2,
+        "special_on_L_2": 2,
+        "generic_point": 8
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 4,
+        "special_on_L_1": 2,
+        "special_on_L_2": 2,
+        "generic_point": 8
+      },
+      "matches_hand_derivation": true
+    },
+    {
+      "n": 8,
+      "kind": "dihedral",
+      "group_order": 16,
+      "orbit_sizes": {
+        "F_pole": 1,
+        "generic_on_L": 8,
+        "special_on_L_1": 4,
+        "special_on_L_2": 4,
+        "generic_point": 16
+      },
+      "expected": {
+        "F_pole": 1,
+        "generic_on_L": 8,
+        "special_on_L_1": 4,
+        "special_on_L_2": 4,
+        "generic_point": 16
+      },
+      "matches_hand_derivation": true
+    }
+  ]
+}

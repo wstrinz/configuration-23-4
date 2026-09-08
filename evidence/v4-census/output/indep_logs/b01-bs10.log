@@ -1,0 +1,15 @@
+   .. leaves=50000 types=935 (233s)
+   .. leaves=100000 types=935 (444s)
+   .. leaves=150000 types=935 (686s)
+   .. leaves=200000 types=935 (920s)
+   .. leaves=250000 types=935 (1159s)
+   .. leaves=300000 types=935 (1368s)
+   .. leaves=350000 types=935 (1567s)
+   .. leaves=400000 types=935 (1782s)
+   .. leaves=450000 types=935 (1982s)
+   .. leaves=500000 types=1153 (2192s)
+   .. leaves=550000 types=1286 (2399s)
+   .. leaves=600000 types=1286 (2584s)
+   .. leaves=650000 types=1286 (2756s)
+{"cell": "n23-fence-b01-bs10", "status": "COMPLETE", "cell_admissibility_reasons": [], "types": 1286, "leaves": 652288, "nodes": 2079600, "rejections": {"feasible": 660224, "notlexmin": 1687776}, "seconds": 2776.17}
+TOTAL distinct types: 1286

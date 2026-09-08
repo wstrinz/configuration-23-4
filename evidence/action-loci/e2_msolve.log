@@ -1,0 +1,97 @@
+Initial seed for pseudo-random number generator is 1788893068
+
+--------------- INPUT DATA ---------------
+#variables                      10
+#equations                      10
+#invalid equations               0
+field characteristic             0
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                         1
+info level                       1
+generate pbm files               0
+------------------------------------------
+Initial prime is 1278311297
+
+---------------- TIMINGS ----------------
+overall(elapsed)        0.00 sec
+overall(cpu)            0.00 sec
+select                  0.00 sec   0.0%
+symbolic prep.          0.00 sec   0.1%
+update                  0.00 sec  42.3%
+convert                 0.00 sec   1.1%
+linear algebra          0.00 sec  26.0%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                    10
+#terms in basis                  25
+#pairs reduced                    0
+#GM criterion                    45
+#redundant elements               0
+#rows reduced                    10
+#zero reductions                  0
+max. matrix data                 10 x 12 (22.500%)
+max. symbolic hash table size  2^11
+max. basis hash table size     2^16
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+overall(elapsed)        0.01 sec
+overall(cpu)            0.00 sec
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+degree of ideal                   2
+#dense rows                       1
+#normal forms                     0
+total density                    50.0%
+density of the free part         50.0%
+deg. elim. pol.                   2
+deg. sqfr. elim. pol.             2
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+multi-mod overall(elapsed)      0.00 sec
+multi-mod F4                    0.00 sec
+multi-mod FGLM                  0.00 sec
+-----------------------------------------
+
+multi-modular steps
+------------------------------------------------------------------------------------------------------
+{2}[0][1][2][3][4][5][6][7][8][9]{4}
+------------------------------------------------------------------------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+#primes                           4
+#bad primes                       0
+-----------------------------------------
+
+---------------- TIMINGS ----------------
+CRT and ratrecon(elapsed)       0.00 sec
+-----------------------------------------
+
+---------------- TIMINGS ----------------
+rational param(elapsed)         0.03 sec
+rational param(cpu)             0.02 sec
+-----------------------------------------
+Maximum bit size in elimination polynomial: 2
+Maximum bit size of coeffs in parametrizations: [3, 2, 3, 4, 4, 3, 2, 2, 4]
+Real root isolation starts at precision 128
+Number of real roots: 2
+Starts real root extraction.
+Elapsed time (real root extraction) = 0.00
+
+
+------------------------------------------------------------------------------------
+msolve overall time           0.08 sec (elapsed) /  0.02 sec (cpu)
+------------------------------------------------------------------------------------

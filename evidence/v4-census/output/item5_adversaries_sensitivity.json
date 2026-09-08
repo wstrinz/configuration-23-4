@@ -1,0 +1,85 @@
+{
+ "rows": [
+  {
+   "adversary": "B0_pinned",
+   "cell": "b01-bs01",
+   "types": 1361,
+   "labelled": 2927,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 0
+  },
+  {
+   "adversary": "B0_pinned",
+   "cell": "b01-bs12",
+   "types": 693,
+   "labelled": 1374,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 0
+  },
+  {
+   "adversary": "B1_freeline_forbid_mixed_index_pairs",
+   "cell": "b01-bs01",
+   "types": 412,
+   "labelled": 1043,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 949
+  },
+  {
+   "adversary": "B1_freeline_forbid_mixed_index_pairs",
+   "cell": "b01-bs12",
+   "types": 0,
+   "labelled": 0,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 693
+  },
+  {
+   "adversary": "B2_pairline_drop_orbit_pair_choice",
+   "cell": "b01-bs01",
+   "types": 1361,
+   "labelled": 1989,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 0
+  },
+  {
+   "adversary": "B2_pairline_drop_orbit_pair_choice",
+   "cell": "b01-bs12",
+   "types": 152,
+   "labelled": 152,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 541
+  },
+  {
+   "adversary": "B3_drop_second_L1_candidate",
+   "cell": "b01-bs01",
+   "types": 0,
+   "labelled": 0,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 1361
+  },
+  {
+   "adversary": "B3_drop_second_L1_candidate",
+   "cell": "b01-bs12",
+   "types": 0,
+   "labelled": 0,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 693
+  },
+  {
+   "adversary": "B4_overeager_orderly_rule",
+   "cell": "b01-bs01",
+   "types": 0,
+   "labelled": 0,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 1361
+  },
+  {
+   "adversary": "B4_overeager_orderly_rule",
+   "cell": "b01-bs12",
+   "types": 0,
+   "labelled": 0,
+   "status": "COMPLETE",
+   "loss_vs_pinned": 693
+  }
+ ],
+ "instrument_is_sensitive": true
+}

@@ -1,0 +1,446 @@
+{
+ "C1_case_table": {
+  "1 x 1": {
+   "orbit_sizes": [
+    4,
+    4
+   ],
+   "n_flag_orbits": 4,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "1 x <s1>": {
+   "orbit_sizes": [
+    4,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "1 x <s2>": {
+   "orbit_sizes": [
+    4,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "1 x <s3>": {
+   "orbit_sizes": [
+    4,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "1 x V4": {
+   "orbit_sizes": [
+    4,
+    1
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  "<s1> x 1": {
+   "orbit_sizes": [
+    2,
+    4
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "<s1> x <s1>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "<s1> x <s2>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s1> x <s3>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s1> x V4": {
+   "orbit_sizes": [
+    2,
+    1
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "<s2> x 1": {
+   "orbit_sizes": [
+    2,
+    4
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "<s2> x <s1>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s2> x <s2>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "<s2> x <s3>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s2> x V4": {
+   "orbit_sizes": [
+    2,
+    1
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "<s3> x 1": {
+   "orbit_sizes": [
+    2,
+    4
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "<s3> x <s1>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s3> x <s2>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 0,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  "<s3> x <s3>": {
+   "orbit_sizes": [
+    2,
+    2
+   ],
+   "n_flag_orbits": 2,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  "<s3> x V4": {
+   "orbit_sizes": [
+    2,
+    1
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "V4 x 1": {
+   "orbit_sizes": [
+    1,
+    4
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     4,
+     1
+    ]
+   ]
+  },
+  "V4 x <s1>": {
+   "orbit_sizes": [
+    1,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "V4 x <s2>": {
+   "orbit_sizes": [
+    1,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "V4 x <s3>": {
+   "orbit_sizes": [
+    1,
+    2
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     2,
+     1
+    ]
+   ]
+  },
+  "V4 x V4": {
+   "orbit_sizes": [
+    1,
+    1
+   ],
+   "n_flag_orbits": 1,
+   "max_simultaneous_classes_pair_ok": 1,
+   "per_class_degree_gain_point_line": [
+    [
+     1,
+     1
+    ]
+   ]
+  }
+ },
+ "C2_theoremA_surviving_shapes": {
+  "shapes_(f,fstar,same_index)": [
+   [
+    1,
+    1,
+    true
+   ]
+  ],
+  "n_integer_frames": 2700,
+  "conclusion_f_eq_fstar_eq_1_same_index": true
+ },
+ "C3_six_cell_theorem": {
+  "n_nominal_subcells": 54,
+  "surviving": [
+   "n23-fence-b01-bs01",
+   "n23-fence-b01-bs10",
+   "n23-fence-b01-bs12",
+   "n23-fence-b01-bs21",
+   "n23-fence-b12-bs01",
+   "n23-fence-b12-bs10"
+  ],
+  "n_dead": 48,
+  "dead_reasons_sample": [
+   [
+    "n23-fence-b01-bs03",
+    [
+     "2bs3>a"
+    ]
+   ],
+   [
+    "n23-fence-b01-bs05",
+    [
+     "2bs3>a"
+    ]
+   ],
+   [
+    "n23-fence-b01-bs14",
+    [
+     "2bs3>a"
+    ]
+   ],
+   [
+    "n23-fence-b01-bs23",
+    [
+     "2bs3>a"
+    ]
+   ],
+   [
+    "n23-fence-b01-bs30",
+    [
+     "2bs2>a"
+    ]
+   ],
+   [
+    "n23-fence-b01-bs32",
+    [
+     "2bs2>a"
+    ]
+   ]
+  ]
+ },
+ "C4_real_model": {
+  "c_i_on_A_j_iff_i_neq_j": true,
+  "common_fixed_points_are_vertices": true,
+  "Fix_s_i_equals_c_i_union_A_i": true,
+  "fixed_lines_of_s_i": true,
+  "point_on_A_i_is_s_i_fixed": true,
+  "A_i_meet_A_j_is_c_k": true,
+  "stab_s_i_points_lie_on_A_i": true,
+  "free_points_lie_on_no_axis": true,
+  "no_fixed_point_free_involution_in_model": true
+ },
+ "C2_theoremA_n22_control": {
+  "shapes_(f,fstar,same_index)": [
+   [
+    0,
+    0,
+    false
+   ],
+   [
+    0,
+    2,
+    false
+   ],
+   [
+    2,
+    0,
+    false
+   ]
+  ],
+  "n_integer_frames": 45073
+ }
+}

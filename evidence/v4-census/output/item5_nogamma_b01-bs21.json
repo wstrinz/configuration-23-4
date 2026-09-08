@@ -1,0 +1,13 @@
+{
+ "mode": "V4_NOGAMMA=1 (orderly rule DISABLED)",
+ "cell": "b01-bs21",
+ "status": "COMPLETE",
+ "nodes": 643324,
+ "labelled_structures": 339456,
+ "types_unpruned": 669,
+ "types_pinned_for_this_cell": 669,
+ "digest_sets_equal": true,
+ "only_unpruned": [],
+ "only_pinned": [],
+ "seconds": 960.6
+}

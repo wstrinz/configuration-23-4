@@ -1,0 +1,86 @@
+{
+  "authority": "EXACT_COMPUTATION",
+  "decides": [],
+  "graph_effect": "NONE",
+  "negative_sample_seed": 2304,
+  "negative_population": 5393,
+  "cases": [
+    {
+      "label": "CUNTZ22",
+      "pair_id": null,
+      "variables": 12,
+      "equations": 14,
+      "sympy_saturated_basis": [
+        "x0 - x11 + 2",
+        "x1 + x11/2 - 1",
+        "-x11 + x2 + 3",
+        "-x11 + x3 + 3",
+        "x11/4 + x4",
+        "x11/2 + x5 - 1",
+        "x6 - 1",
+        "x7 + 2",
+        "x11 + x8 + 1",
+        "x11 + x9 + 2",
+        "x10 - x11/2 + 1/2",
+        "x11**2 - x11 - 4"
+      ],
+      "sympy_empty_open_torus": false,
+      "singular": {
+        "input_sha256": "b41a4aa414056ea89e2171994443e64722ba678b127834e454c54b2d4f6aab93",
+        "output_sha256": "006bffd6c3cac7486ef2d45fc48e119792073c0d8c399a76003c1df188b8b3d2"
+      }
+    },
+    {
+      "label": "NEG1",
+      "pair_id": "d6245dada4e59639-59f5e1cdad98c350",
+      "variables": 10,
+      "equations": 12,
+      "sympy_saturated_basis": [
+        "1"
+      ],
+      "sympy_empty_open_torus": true,
+      "singular": {
+        "input_sha256": "e2ea2cbc116f896fd87d63c06690a8c5b577101b63d4d3e9ff14f65085d80a2e",
+        "output_sha256": "a434373cd10e18d80e2b2e0b27fbb3c0feb23592a254c4fa07efaf5a7dd3d27c"
+      },
+      "certificate_sources": [
+        "verification_b01-bs01.json"
+      ]
+    },
+    {
+      "label": "NEG2",
+      "pair_id": "7b280506fbf59130-55ff8584f7c21638",
+      "variables": 10,
+      "equations": 12,
+      "sympy_saturated_basis": [
+        "1"
+      ],
+      "sympy_empty_open_torus": true,
+      "singular": {
+        "input_sha256": "b6328b61c57e9d23fb5a0a410602fd8beb618b4c9106594a095226f5706b67ca",
+        "output_sha256": "de04fb5211e411aef3172e855a6811435772057802fc17424aa2422d2956b51d"
+      },
+      "certificate_sources": [
+        "verification_bs10_004.json"
+      ]
+    },
+    {
+      "label": "NEG3",
+      "pair_id": "ac61a21d813aef4f-313ad13ed8994d8b",
+      "variables": 10,
+      "equations": 12,
+      "sympy_saturated_basis": [
+        "1"
+      ],
+      "sympy_empty_open_torus": true,
+      "singular": {
+        "input_sha256": "0bb67e2c4c8c17ba339804cf5864db93bb02c439075c8308b791ab0bd82f9354",
+        "output_sha256": "2a55f1701b39295741fc3a3e64eb054ba4ba7ed9af26501210e11cdee5f60f07"
+      },
+      "certificate_sources": [
+        "verification_torus_bs10_sweep.json"
+      ]
+    }
+  ],
+  "generator_sha256": "5451302d6c9e25e306eeb298b6640628bd2b7910aeab9d7da1f0e1f7dbc6e7ec"
+}

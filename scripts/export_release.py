@@ -4,7 +4,7 @@ import argparse, hashlib, json, os, zipfile
 
 root=Path(__file__).resolve().parent.parent
 ap=argparse.ArgumentParser();ap.add_argument('--check',action='store_true');a=ap.parse_args()
-directories={'.github','scripts','schema','third_party','standalone','verification','assets'}
+directories={'.github','scripts','schema','third_party','standalone','verification','assets','evidence','docs'}
 files=[]
 paths=[]
 for parent, dirs, names in os.walk(root, followlinks=False):

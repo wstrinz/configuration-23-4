@@ -1,0 +1,14 @@
+{
+ "sample_size": 204,
+ "S1_relabelling_invariance": true,
+ "S1_failures": [],
+ "S2_explicit_verified_isomorphism_for_every_equal_digest": true,
+ "S2_failures": [],
+ "S3_sensitivity_to_one_point_mutation": true,
+ "S3_failures": [],
+ "S4_av4_classes": 5299,
+ "S4_fastcanon_classes": 5299,
+ "S4_same_partition_on_whole_corpus": true,
+ "S5_double_dual_is_identity": true,
+ "seconds": 84.0
+}

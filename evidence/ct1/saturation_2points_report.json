@@ -1,0 +1,25 @@
+{
+  "discriminant": "-16+0i",
+  "discriminant_nonzero": true,
+  "n_roots_of_quadratic_factor": 2,
+  "points": [
+    {
+      "t5": "3/4+1/4i",
+      "t6": "1/2+0i",
+      "t4": "1/4+1/4i",
+      "t3": "1/2+1/2i",
+      "t2": "1/2+-1/2i",
+      "t1": "-1/2+-1/2i"
+    },
+    {
+      "t5": "3/4+-1/4i",
+      "t6": "1/2+0i",
+      "t4": "1/4+-1/4i",
+      "t3": "1/2+-1/2i",
+      "t2": "1/2+1/2i",
+      "t1": "-1/2+1/2i"
+    }
+  ],
+  "matches_replay_general_witness_points": true,
+  "conclusion": "V(J) has exactly these two points over Qbar (t6=1/2 and t1..t4 affine-linear in t5 are forced identically; t5 solves an explicit quadratic with nonzero discriminant, hence exactly 2 roots, no multiplicity) -- verified here by direct quadratic-formula arithmetic, not re-derived Groebner/vdim trust. These are exactly replay_general.py's two independently resolved points for the Cuntz witness and its conjugate."
+}

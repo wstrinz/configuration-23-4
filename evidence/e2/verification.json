@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "field": "Q(sqrt(17)), both real embeddings",
+  "points": 23,
+  "lines": 23,
+  "determinant_checks": 529,
+  "dot_product_checks": 529,
+  "incidences": 92,
+  "nonincidences": 437,
+  "positive_embedding_polarity": {
+    "matrix": "diag(2,(sqrt(17)-1)/4,1)",
+    "positive_definite_reason": "sqrt(17)>4, so every diagonal entry is positive",
+    "point_to_line_permutation": [
+      0,
+      3,
+      4,
+      1,
+      2,
+      5,
+      6,
+      11,
+      12,
+      13,
+      14,
+      7,
+      8,
+      9,
+      10,
+      15,
+      17,
+      18,
+      16,
+      20,
+      22,
+      21,
+      19
+    ],
+    "exact_images_checked": 23,
+    "symmetric_nonsingular_matrix": true
+  },
+  "authority": "INDEPENDENT_REPLAY",
+  "decides": [],
+  "graph_effect": "NONE",
+  "node": "v22.17.1",
+  "adversaries": {
+    "moved_point": "REJECT",
+    "duplicate_point": "REJECT",
+    "wrong_incidence": "REJECT",
+    "wrong_field": "REJECT"
+  },
+  "input_sha256": "aafc0cb955ef30a52440d25c06bcf495a631063dedb4610781f6ff889e49dc32",
+  "checker_sha256": "7b9447ca760e0f3f4ae577f9fe029bdc98f4af5e87d9503539e0d2e88c8924b0"
+}

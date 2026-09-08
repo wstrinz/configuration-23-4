@@ -1,0 +1,22 @@
+{
+ "b01-bs01": {
+  "fence_types": 1361,
+  "abstract_types": 8031,
+  "abstract_fence_valid_subset": 1361,
+  "abstract_status": "COMPLETE",
+  "fence_status": "COMPLETE",
+  "fence_digests_subset_of_abstract": true,
+  "abstract_fence_valid_equals_fence_set": true,
+  "abstract_adds_types_beyond_fence": 6670
+ },
+ "b01-bs12": {
+  "fence_types": 693,
+  "abstract_types": 7623,
+  "abstract_fence_valid_subset": 693,
+  "abstract_status": "COMPLETE",
+  "fence_status": "COMPLETE",
+  "fence_digests_subset_of_abstract": true,
+  "abstract_fence_valid_equals_fence_set": true,
+  "abstract_adds_types_beyond_fence": 6930
+ }
+}

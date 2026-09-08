@@ -1,0 +1,192 @@
+{
+  "surviving_groups": [
+    "Z/2",
+    "D_2 (order 4)"
+  ],
+  "records": [
+    {
+      "group": "Z/2",
+      "k": 1,
+      "n": 2,
+      "unconstrained_feasible": true,
+      "unconstrained_solutions_sample": [
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          5,
+          9
+        ]
+      ],
+      "F_and_L_forced": false,
+      "constrained_off_count_R": null,
+      "constrained_feasible": true
+    },
+    {
+      "group": "D_2 (order 4)",
+      "k": 1,
+      "n": 2,
+      "unconstrained_feasible": true,
+      "unconstrained_solutions_sample": [
+        [
+          0,
+          1,
+          11
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          5,
+          9
+        ]
+      ],
+      "F_and_L_forced": false,
+      "constrained_off_count_R": null,
+      "constrained_feasible": true
+    },
+    {
+      "group": "Z/4",
+      "k": 2,
+      "n": 4,
+      "unconstrained_feasible": true,
+      "unconstrained_solutions_sample": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "D_4 (order 8)",
+      "k": 2,
+      "n": 4,
+      "unconstrained_feasible": true,
+      "unconstrained_solutions_sample": [
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          5,
+          3
+        ]
+      ],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "Z/8",
+      "k": 3,
+      "n": 8,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "D_8 (order 16)",
+      "k": 3,
+      "n": 8,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "Z/16",
+      "k": 4,
+      "n": 16,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "D_16 (order 32)",
+      "k": 4,
+      "n": 16,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "Z/32",
+      "k": 5,
+      "n": 32,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "D_32 (order 64)",
+      "k": 5,
+      "n": 32,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "Z/64",
+      "k": 6,
+      "n": 64,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    },
+    {
+      "group": "D_64 (order 128)",
+      "k": 6,
+      "n": 64,
+      "unconstrained_feasible": false,
+      "unconstrained_solutions_sample": [],
+      "F_and_L_forced": true,
+      "constrained_off_count_R": null,
+      "constrained_feasible": false
+    }
+  ]
+}

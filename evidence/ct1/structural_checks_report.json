@@ -1,0 +1,536 @@
+{
+  "lemma_B_at_most_one_shared_line_or_point": true,
+  "frame_general_position_witnesses": {
+    "(0, 1, 4)": {
+      "forced_equal_lines": [
+        0,
+        4
+      ],
+      "witness_forbidden_fifth": {
+        "line": 4,
+        "point": 1
+      }
+    },
+    "(0, 1, 11)": {
+      "forced_equal_lines": [
+        0,
+        3
+      ],
+      "witness_forbidden_fifth": {
+        "line": 3,
+        "point": 1
+      }
+    },
+    "(0, 4, 11)": {
+      "forced_equal_lines": [
+        4,
+        3
+      ],
+      "witness_forbidden_fifth": {
+        "line": 3,
+        "point": 4
+      }
+    },
+    "(1, 4, 11)": {
+      "forced_equal_lines": [
+        10,
+        5
+      ],
+      "witness_forbidden_fifth": {
+        "line": 5,
+        "point": 1
+      }
+    }
+  },
+  "n_meet_steps_all_nonzero_by_lemma_B": 23,
+  "n_join_steps_all_nonzero_by_lemma_B": 13,
+  "meet_join_steps": [
+    {
+      "kind": "meet",
+      "builds": "line 0",
+      "from": [
+        0,
+        1
+      ],
+      "nonzero_witness": {
+        "line": 2,
+        "point": 1
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 3",
+      "from": [
+        0,
+        11
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 11
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 4",
+      "from": [
+        0,
+        4
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 4
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 5",
+      "from": [
+        4,
+        11
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 11
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 10",
+      "from": [
+        1,
+        11
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 11
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 1",
+      "from": [
+        4,
+        5
+      ],
+      "nonzero_witness": {
+        "line": 4,
+        "point": 5
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 22",
+      "from": [
+        3,
+        6
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 6
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 15",
+      "from": [
+        7,
+        11
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 11
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 2",
+      "from": [
+        0,
+        8
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 8
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 16",
+      "from": [
+        7,
+        8
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 8
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 21",
+      "from": [
+        3,
+        8
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 8
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 9",
+      "from": [
+        2,
+        22
+      ],
+      "nonzero_witness": {
+        "line": 22,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 10",
+      "from": [
+        2,
+        15
+      ],
+      "nonzero_witness": {
+        "line": 15,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 13",
+      "from": [
+        3,
+        16
+      ],
+      "nonzero_witness": {
+        "line": 16,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 14",
+      "from": [
+        4,
+        21
+      ],
+      "nonzero_witness": {
+        "line": 21,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 21",
+      "from": [
+        10,
+        16
+      ],
+      "nonzero_witness": {
+        "line": 16,
+        "point": 1
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 6",
+      "from": [
+        4,
+        9
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 9
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 8",
+      "from": [
+        6,
+        10
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 10
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 9",
+      "from": [
+        1,
+        13
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 13
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 12",
+      "from": [
+        6,
+        21
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 21
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 14",
+      "from": [
+        5,
+        10
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 10
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 17",
+      "from": [
+        2,
+        9
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 9
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 19",
+      "from": [
+        2,
+        14
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 14
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 20",
+      "from": [
+        3,
+        21
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 21
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 12",
+      "from": [
+        3,
+        20
+      ],
+      "nonzero_witness": {
+        "line": 20,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 15",
+      "from": [
+        4,
+        14
+      ],
+      "nonzero_witness": {
+        "line": 14,
+        "point": 0
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 16",
+      "from": [
+        5,
+        8
+      ],
+      "nonzero_witness": {
+        "line": 8,
+        "point": 4
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 17",
+      "from": [
+        6,
+        9
+      ],
+      "nonzero_witness": {
+        "line": 9,
+        "point": 4
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 18",
+      "from": [
+        6,
+        14
+      ],
+      "nonzero_witness": {
+        "line": 14,
+        "point": 4
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 19",
+      "from": [
+        9,
+        22
+      ],
+      "nonzero_witness": {
+        "line": 22,
+        "point": 1
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 20",
+      "from": [
+        12,
+        19
+      ],
+      "nonzero_witness": {
+        "line": 19,
+        "point": 6
+      }
+    },
+    {
+      "kind": "join",
+      "builds": "point 22",
+      "from": [
+        12,
+        17
+      ],
+      "nonzero_witness": {
+        "line": 17,
+        "point": 6
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 7",
+      "from": [
+        5,
+        12
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 12
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 11",
+      "from": [
+        1,
+        15
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 15
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 13",
+      "from": [
+        7,
+        18
+      ],
+      "nonzero_witness": {
+        "line": 1,
+        "point": 18
+      }
+    },
+    {
+      "kind": "meet",
+      "builds": "line 18",
+      "from": [
+        2,
+        12
+      ],
+      "nonzero_witness": {
+        "line": 0,
+        "point": 12
+      }
+    }
+  ],
+  "g_factor_forbidden_fifth_match": [
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "expected_expr": "1 - t3",
+      "actual_expr": "1 - t3",
+      "match": true
+    },
+    {
+      "pair": [
+        2,
+        11
+      ],
+      "expected_expr": "1 - t6",
+      "actual_expr": "1 - t6",
+      "match": true
+    },
+    {
+      "pair": [
+        0,
+        8
+      ],
+      "expected_expr": "t6",
+      "actual_expr": "t6",
+      "match": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "expected_expr": "-t2*t3 + 1",
+      "actual_expr": "-t2*t3 + 1",
+      "match": true
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "expected_expr": "-t4 + t6",
+      "actual_expr": "-t4 + t6",
+      "match": true
+    }
+  ],
+  "composed_stratum_sweep_summary": {
+    "n_strata": 63,
+    "n_impossible_by_guard": 27,
+    "n_impossible_by_degenerate": 36,
+    "n_open": 0,
+    "source": "artifacts/ct1-chart-cover-v1/output/stratum_sweep_report.json (accepted, composed with, not re-derived)"
+  },
+  "no_CHART_guard_field_read": true
+}

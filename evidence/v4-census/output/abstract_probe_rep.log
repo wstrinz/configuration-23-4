@@ -1,0 +1,26 @@
+{"cell": "b01-bs01", "mode": "fence", "types": 1361, "fence_valid": 1361, "status": "COMPLETE"}
+{"cell": "b01-bs01", "mode": "abstract", "types": 8031, "fence_valid": 1361, "status": "COMPLETE"}
+{"cell": "b01-bs12", "mode": "fence", "types": 693, "fence_valid": 693, "status": "COMPLETE"}
+{"cell": "b01-bs12", "mode": "abstract", "types": 7623, "fence_valid": 693, "status": "COMPLETE"}
+{
+ "b01-bs01": {
+  "repaired_fence_types": 1361,
+  "repaired_abstract_types": 8031,
+  "repaired_abstract_fence_valid": 1361,
+  "fence_valid_sets_equal": true,
+  "status": [
+   "COMPLETE",
+   "COMPLETE"
+  ]
+ },
+ "b01-bs12": {
+  "repaired_fence_types": 693,
+  "repaired_abstract_types": 7623,
+  "repaired_abstract_fence_valid": 693,
+  "fence_valid_sets_equal": true,
+  "status": [
+   "COMPLETE",
+   "COMPLETE"
+  ]
+ }
+}

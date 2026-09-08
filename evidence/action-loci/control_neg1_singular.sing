@@ -1,0 +1,7 @@
+ring r=0,(u,x0,x1,x2,x3,x4,x5,x6,x7,x8,x9),lp;
+ideal K=x0*x1*x7 + x0 - x1*x7,x1*x8 - x1 + 1,x0*x2*x6 - x2*x6 - 1,x0*x2 - x2*x8 - 1,x0*x2 - x2*x9 + 1,x1*x6 - x3*x6 - 1,x0*x3*x7 - x0 - x1*x7,x1 - x3*x9 - 1,x4*x6 - x5*x6 + 1,x0*x4*x7 - x0 + x5*x7,x4*x8 - x5 - 1,x4*x9 + x5 - 1,u*x0*x1*x2*x3*x4*x5*x6*x7*x8*x9-1;
+ideal G=std(K);
+ideal J=eliminate(G,u);
+ring s=0,(x0,x1,x2,x3,x4,x5,x6,x7,x8,x9),lp;
+ideal J=imap(r,J);
+print("NEG1"); print(dim(std(J))); print(vdim(std(J))); print(std(J));

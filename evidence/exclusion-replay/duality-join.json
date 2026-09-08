@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "authority": "INDEPENDENT_REPLAY_CANDIDATE",
+  "decides": [],
+  "graph_effect": "NONE",
+  "source_boundary": "Hash-pinned retained records from the accepted independent census audit; no producer import and no recomputation of canonical digests.",
+  "manifest_sha256": "b19e7bd51cf43dcb7b5fd1f2023e9f0054a612ec0e97f61622ef3d2b69143492",
+  "bare_types": 5299,
+  "actions": 5395,
+  "distinct_primal_digests": 5395,
+  "distinct_dual_digests": 5395,
+  "dual_multiset_equal": true,
+  "cell_reciprocity": {
+    "n23-fence-b01-bs01->n23-fence-b01-bs01": 1361,
+    "n23-fence-b01-bs10->n23-fence-b01-bs10": 1286,
+    "n23-fence-b01-bs12->n23-fence-b12-bs01": 699,
+    "n23-fence-b01-bs21->n23-fence-b12-bs10": 675,
+    "n23-fence-b12-bs01->n23-fence-b01-bs12": 699,
+    "n23-fence-b12-bs10->n23-fence-b01-bs21": 675
+  }
+}

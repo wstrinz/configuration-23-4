@@ -1,0 +1,66 @@
+{
+ "corpus_index_spot_check_ok": true,
+ "spot_sample": 18,
+ "per_cell": {
+  "b01-bs01": {
+   "independent": 1361,
+   "corpus": 1361,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  },
+  "b01-bs10": {
+   "independent": 1286,
+   "corpus": 1286,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  },
+  "b01-bs12": {
+   "independent": 693,
+   "corpus": 693,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  },
+  "b01-bs21": {
+   "independent": 669,
+   "corpus": 669,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  },
+  "b12-bs01": {
+   "independent": 693,
+   "corpus": 693,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  },
+  "b12-bs10": {
+   "independent": 669,
+   "corpus": 669,
+   "set_equal": true,
+   "missing": 0,
+   "extra": 0
+  }
+ },
+ "all_cell_sets_equal": true,
+ "union_independent": 5299,
+ "union_corpus": 5299,
+ "GLOBAL_SET_EQUALITY": true,
+ "sum_of_cell_memberships": 5371,
+ "distinct_types": 5299,
+ "excess_memberships": 72,
+ "reconciliation_5371_equals_5299_plus_72": true,
+ "six_cell_theorem_cells": [
+  "b01-bs01",
+  "b01-bs10",
+  "b01-bs12",
+  "b01-bs21",
+  "b12-bs01",
+  "b12-bs10"
+ ],
+ "six_cell_theorem_matches_nonempty_cells": true,
+ "n_cells_proved_empty": 48
+}

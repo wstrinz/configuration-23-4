@@ -1,0 +1,71 @@
+{
+  "schema": "cfg23-p3-isomorphism-audit-v1",
+  "python_igraph_version": "1.0.0",
+  "networkx_version": "3.6.1",
+  "objects": {
+    "E1-rational": {
+      "bliss_colored_levi_sha256": "db292b0ac1c1b87370cc8c2b8f9201aef0fbeeeecd34cbc021c53b9ba1f4985a",
+      "part_preserving_automorphism_order_vf2": 4,
+      "part_preserving_element_order_histogram": {
+        "2": 3,
+        "1": 1
+      },
+      "part_preserving_group_abelian": true,
+      "full_uncolored_levi_automorphism_order_vf2": 8,
+      "self_dual_vf2": true,
+      "bliss_relabel_control_pass": true,
+      "vf2_relabel_control_pass": true
+    },
+    "E2-quadratic": {
+      "bliss_colored_levi_sha256": "df25d6e7eec1c86deb7cb987502962ebc02b284ec01900bbc281935761f5996f",
+      "part_preserving_automorphism_order_vf2": 8,
+      "part_preserving_element_order_histogram": {
+        "2": 3,
+        "1": 1,
+        "4": 4
+      },
+      "part_preserving_group_abelian": true,
+      "full_uncolored_levi_automorphism_order_vf2": 16,
+      "self_dual_vf2": true,
+      "bliss_relabel_control_pass": true,
+      "vf2_relabel_control_pass": true
+    },
+    "CT1-S1": {
+      "bliss_colored_levi_sha256": "2ec9fddf9787f5b2078718c5932bdd0647005c6b388c4b62f02eb4126338c0c4",
+      "part_preserving_automorphism_order_vf2": 8,
+      "part_preserving_element_order_histogram": {
+        "1": 1,
+        "2": 5,
+        "4": 2
+      },
+      "part_preserving_group_abelian": false,
+      "full_uncolored_levi_automorphism_order_vf2": 8,
+      "self_dual_vf2": false,
+      "bliss_relabel_control_pass": true,
+      "vf2_relabel_control_pass": true
+    }
+  },
+  "comparisons": [
+    {
+      "a": "E1-rational",
+      "b": "E2-quadratic",
+      "bliss_digest_equal": false,
+      "vf2_part_preserving_isomorphic": false,
+      "vf2_part_swapping_isomorphic": false
+    },
+    {
+      "a": "E1-rational",
+      "b": "CT1-S1",
+      "bliss_digest_equal": false,
+      "vf2_part_preserving_isomorphic": false,
+      "vf2_part_swapping_isomorphic": false
+    },
+    {
+      "a": "E2-quadratic",
+      "b": "CT1-S1",
+      "bliss_digest_equal": false,
+      "vf2_part_preserving_isomorphic": false,
+      "vf2_part_swapping_isomorphic": false
+    }
+  ]
+}

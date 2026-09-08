@@ -1,0 +1,86 @@
+{
+ "sidecar_commit": "858589eb36b2606460f1cb25966b490d857e0e77",
+ "source_blob_hashes": {
+  "DERIVATION.md": "0292e5f7c97f5ba5545cb6df0319d5a38d77a5dc",
+  "RECEIPT.md": "4418fbb43470365c66ab17a36209215f6a9d1ff3",
+  "code/v4census.py": "0b17fcb301f9f2de90db18e5ee9bb5ce7e4a5381",
+  "code/run_census.py": "84a897cdbe56f1e2fa2cb3df1961eb17644efa32",
+  "output/summary.json": "686fa9b42dbe6cefb1c55a7b749ca3880ffcd8fe"
+ },
+ "n_pins": 5299,
+ "n_fully_checked": 5299,
+ "anomaly_counts": {},
+ "anomalies_sample": {},
+ "independent_bare_classes": 5299,
+ "independent_bare_collisions": {},
+ "independent_partition_is_bijective_with_stored_digests": true,
+ "dual_closure": {
+  "self_dual": 265,
+  "dual_in_census": 5034,
+  "dual_missing": 0
+ },
+ "declared_cellname_mismatches": [],
+ "n_declared_cellname_mismatches": 0,
+ "cell_counts": {
+  "n23-fence-b01-bs01": 1361,
+  "n23-fence-b01-bs10": 1286,
+  "n23-fence-b01-bs12": 675,
+  "n23-fence-b01-bs21": 651,
+  "n23-fence-b12-bs01": 675,
+  "n23-fence-b12-bs10": 651
+ },
+ "occupied_profiles": {
+  "((2, 0, 1), (2, 0, 1))": 1361,
+  "((2, 0, 1), (2, 1, 0))": 1286,
+  "((2, 0, 1), (2, 1, 2))": 675,
+  "((2, 0, 1), (2, 2, 1))": 651,
+  "((2, 1, 2), (2, 0, 1))": 675,
+  "((2, 1, 2), (2, 1, 0))": 651
+ },
+ "n_pins_with_also_found_in": 48,
+ "cross_cell_coincidences_sample": [
+  [
+   "02196b1bcb97b9a226128124ecd9cb8c308df668b318a67c9aa2316860ff8729",
+   "n23-fence-b01-bs10",
+   [
+    "n23-fence-b01-bs12",
+    "n23-fence-b01-bs21"
+   ]
+  ],
+  [
+   "14fdfd1118852239a55a00800c7c57a3f90d3434a095fa5368fbd91f00856da8",
+   "n23-fence-b01-bs10",
+   [
+    "n23-fence-b01-bs12",
+    "n23-fence-b01-bs21"
+   ]
+  ],
+  [
+   "19809edff261a01ef810651074e05569df8d9674e7bad8112e50890c63937416",
+   "n23-fence-b01-bs10",
+   [
+    "n23-fence-b12-bs01",
+    "n23-fence-b12-bs10"
+   ]
+  ],
+  [
+   "1df6dba1502119c18f60e6624907799c0eb4c2e0aaceed08bc417360954d7243",
+   "n23-fence-b01-bs10",
+   [
+    "n23-fence-b12-bs01",
+    "n23-fence-b12-bs10"
+   ]
+  ],
+  [
+   "246c8c59505de0bb5fe2e621189aad783cf5007754cbd89956ccdd1db6cd5067",
+   "n23-fence-b01-bs10",
+   [
+    "n23-fence-b01-bs12",
+    "n23-fence-b01-bs21"
+   ]
+  ]
+ ],
+ "summary_json_declared_total": 5299,
+ "summary_json_per_cell_sum": 5371,
+ "elapsed_seconds": 76.3
+}

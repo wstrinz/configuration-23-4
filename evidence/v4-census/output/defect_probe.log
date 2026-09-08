@@ -1,0 +1,157 @@
+{"control": "n22 b=(1,1,1) b*=(1,0,0) [Cuntz cell]", "mode": "fence", "pinned_types": 1392, "repaired_types": 1392, "pinned_status": "COMPLETE", "repaired_status": "COMPLETE", "pinned_labelled": 3233, "repaired_labelled": 3233, "delta": 0, "wall": [19.4, 19.4]}
+{"control": "n22 b=(1,1,1) b*=(1,0,0)", "mode": "abstract", "pinned_types": 1392, "repaired_types": 1392, "pinned_status": "COMPLETE", "repaired_status": "COMPLETE", "pinned_labelled": 3233, "repaired_labelled": 3233, "delta": 0, "wall": [17.8, 18.5]}
+{"control": "n22 b=(2,1,0) b*=(2,1,0)", "mode": "fence", "pinned_types": 184, "repaired_types": 184, "pinned_status": "COMPLETE", "repaired_status": "COMPLETE", "pinned_labelled": 680, "repaired_labelled": 680, "delta": 0, "wall": [4.6, 5.1]}
+{"control": "n22 b=(2,1,0) b*=(2,1,0)", "mode": "abstract", "pinned_types": 830, "repaired_types": 830, "pinned_status": "COMPLETE", "repaired_status": "COMPLETE", "pinned_labelled": 3403, "repaired_labelled": 3403, "delta": 0, "wall": [23.8, 28.6]}
+{
+ "finding": "D1 gen_pairline coset collapse at stab index 1",
+ "a_collapse_demo": {
+  "i=1": {
+   "cos(o0,h0)": [
+    6,
+    7
+   ],
+   "cos(o0,h1)": [
+    6,
+    7
+   ],
+   "distinct": false,
+   "true_cosets": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  "i=2": {
+   "cos(o0,h0)": [
+    6,
+    8
+   ],
+   "cos(o0,h1)": [
+    7,
+    9
+   ],
+   "distinct": true,
+   "true_cosets": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  "i=3": {
+   "cos(o0,h0)": [
+    6,
+    9
+   ],
+   "cos(o0,h1)": [
+    7,
+    8
+   ],
+   "distinct": true,
+   "true_cosets": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ },
+ "b_stab_indices_reaching_gen_pairline_in_n23_fence": {
+  "b01-bs01": [
+   3
+  ],
+  "b01-bs10": [
+   2
+  ],
+  "b01-bs12": [
+   2,
+   3
+  ],
+  "b01-bs21": [
+   2,
+   3
+  ],
+  "b12-bs01": [
+   3
+  ],
+  "b12-bs10": [
+   2
+  ]
+ },
+ "b_verdict": "n=23 fence mode never calls gen_pairline with i=1; the 5,299-pin census is NOT affected by D1",
+ "c_controls": [
+  {
+   "control": "n22 b=(1,1,1) b*=(1,0,0) [Cuntz cell]",
+   "mode": "fence",
+   "pinned_types": 1392,
+   "repaired_types": 1392,
+   "pinned_status": "COMPLETE",
+   "repaired_status": "COMPLETE",
+   "pinned_labelled": 3233,
+   "repaired_labelled": 3233,
+   "delta": 0,
+   "wall": [
+    19.4,
+    19.4
+   ]
+  },
+  {
+   "control": "n22 b=(1,1,1) b*=(1,0,0)",
+   "mode": "abstract",
+   "pinned_types": 1392,
+   "repaired_types": 1392,
+   "pinned_status": "COMPLETE",
+   "repaired_status": "COMPLETE",
+   "pinned_labelled": 3233,
+   "repaired_labelled": 3233,
+   "delta": 0,
+   "wall": [
+    17.8,
+    18.5
+   ]
+  },
+  {
+   "control": "n22 b=(2,1,0) b*=(2,1,0)",
+   "mode": "fence",
+   "pinned_types": 184,
+   "repaired_types": 184,
+   "pinned_status": "COMPLETE",
+   "repaired_status": "COMPLETE",
+   "pinned_labelled": 680,
+   "repaired_labelled": 680,
+   "delta": 0,
+   "wall": [
+    4.6,
+    5.1
+   ]
+  },
+  {
+   "control": "n22 b=(2,1,0) b*=(2,1,0)",
+   "mode": "abstract",
+   "pinned_types": 830,
+   "repaired_types": 830,
+   "pinned_status": "COMPLETE",
+   "repaired_status": "COMPLETE",
+   "pinned_labelled": 3403,
+   "repaired_labelled": 3403,
+   "delta": 0,
+   "wall": [
+    23.8,
+    28.6
+   ]
+  }
+ ]
+}

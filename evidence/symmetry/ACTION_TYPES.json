@@ -1,0 +1,55 @@
+{
+  "scope": "The finite 2-subgroup ACTION-TYPE universe compatible with a real geometric (23_4) configuration's collineation symmetry Sym(X) <= PGL_3(R). This is NOT a census of (23_4) configurations, geometric or abstract-combinatorial: it classifies which finite 2-groups can act at all, given only the (23,23,4,4)-regularity axioms and the exact real-projective orbit structure of finite 2-subgroups of PGL_3(R). Existence of a configuration realizing any surviving action type is a SEPARATE, open question.",
+  "background_theorem_reused": "S3 (results/accepted/2026-08-23-symmetry-2-power-theorem.md): Sym(X) is finite of 2-power order.",
+  "classification_method": "Every finite subgroup of PGL_3(R) is conjugate to a finite subgroup of SO(3) (Lemma L1-L2 in the inbox report); every finite 2-subgroup of SO(3) is cyclic Z/n or dihedral D_n, order 2n, with n a power of 2 (Lemma L3, elementary p-group/eigenspace proof). Each family has an exact, matrix-verified point-orbit-size menu on RP^2 (Lemma L4, cross-checked by artifacts/symmetry-action-classification-v1/verify_orbit_structure.py). Orbit-counting against the exactly-23-points/exactly-4-per-line axioms (Lemma L5-L6, cross-checked by artifacts/symmetry-action-classification-v1/divisibility_scan.py) eliminates every group of order >= 8.",
+  "action_types": [
+    {
+      "group": "trivial",
+      "order": 1,
+      "status": "SURVIVES (no constraint -- every configuration is trivially symmetric under {1})",
+      "note": "Says nothing about whether any (23_4) with LARGER symmetry, or none, exists."
+    },
+    {
+      "group": "Z/2",
+      "order": 2,
+      "status": "SURVIVES",
+      "cycle_types": "Type A (1^5 2^9 on both points and lines) or Type B (1^l 2^((23-l)/2), l in {1,3,5}, independently on points/lines) -- already classified and accepted in results/accepted/2026-08-23-involution-cycle-types.md; this report adds no new constraint at order 2.",
+      "note": "One concrete Type-A abstract witness is known (results/accepted/2026-08-23-type-a-combinatorial-witness.md) and known EXACTLY NONREALIZABLE over any char-0 field for that one witness (results/accepted/2026-08-23-type-a-witness-nonrealizability-v1.md) -- not a census of all Type-A/B completions."
+    },
+    {
+      "group": "Z/4",
+      "order": 4,
+      "status": "EXCLUDED",
+      "reason": "Forces exactly 1 config point at the pole F and exactly 4 config points on the invariant line L (both forced by parity + point/line polarity duality, Lemma L5); the remaining 18 points must split into free orbits of size exactly 4, but 18 is not a multiple of 4.",
+      "checker": "artifacts/symmetry-action-classification-v1/divisibility_scan.py -> record {group: 'Z/4', constrained_feasible: false}"
+    },
+    {
+      "group": "D_2 = V4 (Klein four)",
+      "order": 4,
+      "status": "SURVIVES numerically",
+      "reason": "V4 has 3 simultaneous fixed points (a self-polar coordinate triangle), not one -- the parity argument only forces an ODD number among these 3 to be config points (1 or 3), and both sub-cases pass the integer feasibility check.",
+      "checker": "artifacts/symmetry-action-classification-v1/divisibility_scan.py -> record {group: 'D_2 (order 4)', constrained_feasible: true}",
+      "note": "Fine-grained cycle-type enumeration for each of the two sub-cases (exactly 1 vs all 3 triangle vertices in the config) is NOT completed here -- flagged as an open follow-up, analogous to the existing Type-A/B point/line cycle-type table."
+    },
+    {
+      "group": "Z/2^k, k >= 3  (Z/8, Z/16, ...)",
+      "order": ">=8",
+      "status": "EXCLUDED for every k >= 3 tested (3..6) and by the general argument for all k >= 3",
+      "reason": "n/2 = 2^(k-1) >= 4 does not divide 22 or 23 for any k >= 3, so even the UNCONSTRAINED point count is infeasible -- excluded before the L-forcing lemma is even needed.",
+      "checker": "artifacts/symmetry-action-classification-v1/divisibility_scan.py"
+    },
+    {
+      "group": "D_n, n = 2^k, k >= 2  (D_4 order 8, D_8 order 16, ...)",
+      "order": ">=8",
+      "status": "EXCLUDED for every k tested (2..6) and by the general argument for all k >= 2",
+      "reason": "Same forced F/L argument as Z/2^k (k>=2): remaining 18 off-axis points must be a multiple of n = 2^k, and 2^k never divides 18 for k >= 2 (18 = 2 x 3^2 has only one factor of 2).",
+      "checker": "artifacts/symmetry-action-classification-v1/divisibility_scan.py"
+    }
+  ],
+  "conclusion": "|Sym(X)| in {1, 2, 4} for every real geometric (23_4) configuration X, sharpening S3's '2-power' theorem. If |Sym(X)| = 4, Sym(X) is isomorphic to the Klein four-group V4, never to the cyclic group Z/4. This proves the founding packet's conjectured '|Sym(X)| <= 4' strengthening and additionally pins the order-4 case to a single isomorphism type.",
+  "excluded_from_scope": [
+    "Correlations/dualities (point<->line swaps): Sym(X) here means the COLLINEATION group <= PGL_3(R) only, per packet instruction to treat these separately. The extended group Sym+(X) (collineations + correlations) is a 2-group by the already-accepted S3 corollary, but this report does NOT bound |Sym+(X)| <= 4 or 8 -- that is untouched, open.",
+    "Existence: whether any geometric (23_4) with |Sym(X)| = 2 or 4 actually exists is not decided here.",
+    "Trivial-symmetry (|Sym(X)| = 1) configurations: this classification says nothing about them; per packet item 4, a symmetric-case classification is not evidence about the trivial-symmetry universe."
+  ]
+}

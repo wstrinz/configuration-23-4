@@ -1,0 +1,101 @@
+{"cell": "n23-fence-b01-bs01", "types": 1361, "nodes": 8975, "labelled": 2927, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b01-bs03", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs05", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs10", "types": 1286, "nodes": 8843, "labelled": 2826, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b01-bs12", "types": 693, "nodes": 2658, "labelled": 1374, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b01-bs14", "types": 0, "nodes": 30, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs21", "types": 669, "nodes": 2580, "labelled": 1326, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b01-bs23", "types": 0, "nodes": 19, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs30", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs32", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs41", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b01-bs50", "types": 0, "nodes": 10, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs01", "types": 0, "nodes": 455, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs03", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs05", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs10", "types": 0, "nodes": 449, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs12", "types": 0, "nodes": 13, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs14", "types": 0, "nodes": 13, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs21", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs23", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs30", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs32", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs41", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b03-bs50", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 147456, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs01", "types": 0, "nodes": 446, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs03", "types": 0, "nodes": 6, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs10", "types": 0, "nodes": 406, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs12", "types": 0, "nodes": 6, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs21", "types": 0, "nodes": 6, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b05-bs30", "types": 0, "nodes": 6, "labelled": 0, "status": "COMPLETE", "gamma_enabled": false, "gamma_order": null, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs01", "types": 693, "nodes": 7277, "labelled": 1374, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b12-bs03", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs05", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs10", "types": 669, "nodes": 7181, "labelled": 1326, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": true}
+{"cell": "n23-fence-b12-bs12", "types": 0, "nodes": 13, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs14", "types": 0, "nodes": 13, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs21", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs23", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs30", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs32", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs41", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b12-bs50", "types": 0, "nodes": 7, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 49152, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs01", "types": 0, "nodes": 53, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs03", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs10", "types": 0, "nodes": 55, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs12", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs21", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b14-bs30", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 196608, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs01", "types": 0, "nodes": 109, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs03", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs10", "types": 0, "nodes": 109, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs12", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs21", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{"cell": "n23-fence-b23-bs30", "types": 0, "nodes": 5, "labelled": 0, "status": "COMPLETE", "gamma_enabled": true, "gamma_order": 98304, "proved_nonempty_by_theoremC": false}
+{
+ "n_cells_replayed": 54,
+ "all_complete": true,
+ "cells_with_gamma_pruning_disabled_by_cap": [
+  "n23-fence-b05-bs01",
+  "n23-fence-b05-bs03",
+  "n23-fence-b05-bs10",
+  "n23-fence-b05-bs12",
+  "n23-fence-b05-bs21",
+  "n23-fence-b05-bs30"
+ ],
+ "nonempty_cells_found": [
+  "n23-fence-b01-bs01",
+  "n23-fence-b01-bs10",
+  "n23-fence-b01-bs12",
+  "n23-fence-b01-bs21",
+  "n23-fence-b12-bs01",
+  "n23-fence-b12-bs10"
+ ],
+ "nonempty_cells_proved_by_theoremC": [
+  "n23-fence-b01-bs01",
+  "n23-fence-b01-bs10",
+  "n23-fence-b01-bs12",
+  "n23-fence-b01-bs21",
+  "n23-fence-b12-bs01",
+  "n23-fence-b12-bs10"
+ ],
+ "empty_cells_agree_with_theoremC": true,
+ "per_cell_types": {
+  "n23-fence-b01-bs01": 1361,
+  "n23-fence-b01-bs10": 1286,
+  "n23-fence-b01-bs12": 693,
+  "n23-fence-b01-bs21": 669,
+  "n23-fence-b12-bs01": 693,
+  "n23-fence-b12-bs10": 669
+ },
+ "per_cell_type_sum": 5371,
+ "distinct_digests": 5299,
+ "corpus_digests": 5299,
+ "REPLAY_DIGEST_SET_EQUALS_CORPUS": true,
+ "n_only_in_replay": 0,
+ "n_only_in_corpus": 0,
+ "cross_cell_coincidences_replay": 48,
+ "cross_cell_coincidences_pinned": 48,
+ "coincidence_cellsets_match": true,
+ "seconds": 188.3
+}

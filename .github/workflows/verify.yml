@@ -34,3 +34,9 @@ jobs:
         run: python3 scripts/negative_controls.py
       - name: Check standalone integer certificate
         run: lean standalone/Witness.lean
+      - name: Check quadratic witness and combinatorial separation
+        run: |
+          node evidence/e2/verify.mjs
+          python3 -m venv .cache/evidence
+          .cache/evidence/bin/pip install -r evidence/requirements.txt
+          .cache/evidence/bin/python evidence/combinatorics/audit_isomorphism.py

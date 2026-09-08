@@ -1,0 +1,46 @@
+{
+  "authority": "EXACT_COMPUTATION",
+  "decides": [],
+  "graph_effect": "NONE",
+  "runs": [
+    {
+      "case": "E1",
+      "solver": "Singular",
+      "command": "Singular e1_singular.sing",
+      "exit_code": 0,
+      "seconds": 0.375,
+      "input_sha256": "94c8daf7804023fffc78864ca6483fad7e8f48cb961c50bab5b881ac2e67124c",
+      "output_sha256": "502e429bd0cab8c34e7c281b55055d789f7bea9ce21e24bc58d0785c61afcf42"
+    },
+    {
+      "case": "E1",
+      "solver": "msolve 0.10.1",
+      "command": "msolve -f e1_msolve.in -o e1_msolve.out -v 1",
+      "exit_code": 0,
+      "seconds": 0.34399999999732245,
+      "input_sha256": "1bb9263a6a333246ed23234deb458fbe8c4e9de0e76030c13236c54f9c0eb571",
+      "output_sha256": "b9964770d8c40fa8cd26186bced070ee3ae7816280e08c22219de83476d049e9",
+      "log_sha256": "e61e93657b5346c39fdb4ba00c20ab81a9fd4aaf9408cb08334764630a3a0c2b"
+    },
+    {
+      "case": "E2",
+      "solver": "Singular",
+      "command": "Singular e2_singular.sing",
+      "exit_code": 0,
+      "seconds": 0.2969999999986612,
+      "input_sha256": "53b0e3ffbb477927e5b72623bcd037ab40460dc8cc7677383c613d55fd447f3a",
+      "output_sha256": "5759da3bc2a298e20d8605e54d09336ec20795beecca02c3cf082f072e29e9bc"
+    },
+    {
+      "case": "E2",
+      "solver": "msolve 0.10.1",
+      "command": "msolve -f e2_msolve.in -o e2_msolve.out -v 1",
+      "exit_code": 0,
+      "seconds": 0.35900000000401633,
+      "input_sha256": "2e91bf0b4e8d314adb40ce5427b9b24aa04b51370b58fb48307e6baa36653fb8",
+      "output_sha256": "39349418a3cb6467bcef744d10a7bd6bd0c3db5cb709708112fc2cb6b817f714",
+      "log_sha256": "4859f954fc5d100602c695b052c8e2759727d35bb65eebc980b8bb3911e222a1"
+    }
+  ],
+  "generator_sha256": "2669f0f2c28d059f68411e2f27717fa253c659e587cc5df312f0190600ae04c8"
+}

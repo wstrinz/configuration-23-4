@@ -1,0 +1,26 @@
+{
+ "n": 19,
+ "point_profile": [
+  1,
+  1,
+  3
+ ],
+ "a": 3,
+ "brute_force_truncated": false,
+ "brute_force_labelled": 109056,
+ "brute_force_fence_valid_types": 9,
+ "line_inventories_seen_in_brute_force": {
+  "((2, 0, 1), 3, (2, 0, 1), 3)": 9216,
+  "((2, 0, 1), 3, (2, 1, 0), 3)": 4608
+ },
+ "normalised_per_cell": {
+  "(0, 1)": 6,
+  "(1, 0)": 3
+ },
+ "normalised_union": 9,
+ "SET_EQUALITY_bruteforce_vs_union_over_admissible_line_inventories": true,
+ "n_missing_from_normalised_union": 0,
+ "n_extra_in_normalised_union": 0,
+ "inventories_of_any_missing_type": [],
+ "seconds": 1882.4
+}

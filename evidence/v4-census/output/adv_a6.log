@@ -1,0 +1,60 @@
+{"control": "n23 (b2,b3|bs2,bs3) = (2,1|2,1)", "mode": "abstract", "pinned_types": 8020, "repaired_types": 8020, "pinned_labelled": 32648, "repaired_labelled": 32648, "status": ["COMPLETE", "COMPLETE"], "delta": 0}
+{"control": "n22 b=(1,0,0) b*=(3,0,0)", "mode": "fence", "pinned_types": 0, "repaired_types": 0, "pinned_labelled": 0, "repaired_labelled": 0, "status": ["COMPLETE", "COMPLETE"], "delta": 0}
+{"control": "n22 b=(1,0,0) b*=(3,0,0)", "mode": "abstract", "pinned_types": 0, "repaired_types": 0, "pinned_labelled": 0, "repaired_labelled": 0, "status": ["COMPLETE", "COMPLETE"], "delta": 0}
+{"control": "n22 b=(1,1,1) b*=(2,1,0)", "mode": "fence", "pinned_types": 1382, "repaired_types": 1382, "pinned_labelled": 2760, "repaired_labelled": 2760, "status": ["COMPLETE", "COMPLETE"], "delta": 0}
+{
+ "A6_D1_reach": [
+  {
+   "control": "n23 (b2,b3|bs2,bs3) = (2,1|2,1)",
+   "mode": "abstract",
+   "pinned_types": 8020,
+   "repaired_types": 8020,
+   "pinned_labelled": 32648,
+   "repaired_labelled": 32648,
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "delta": 0
+  },
+  {
+   "control": "n22 b=(1,0,0) b*=(3,0,0)",
+   "mode": "fence",
+   "pinned_types": 0,
+   "repaired_types": 0,
+   "pinned_labelled": 0,
+   "repaired_labelled": 0,
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "delta": 0
+  },
+  {
+   "control": "n22 b=(1,0,0) b*=(3,0,0)",
+   "mode": "abstract",
+   "pinned_types": 0,
+   "repaired_types": 0,
+   "pinned_labelled": 0,
+   "repaired_labelled": 0,
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "delta": 0
+  },
+  {
+   "control": "n22 b=(1,1,1) b*=(2,1,0)",
+   "mode": "fence",
+   "pinned_types": 1382,
+   "repaired_types": 1382,
+   "pinned_labelled": 2760,
+   "repaired_labelled": 2760,
+   "status": [
+    "COMPLETE",
+    "COMPLETE"
+   ],
+   "delta": 0
+  }
+ ]
+}

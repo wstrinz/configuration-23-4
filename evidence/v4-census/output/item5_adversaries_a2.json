@@ -1,0 +1,55 @@
+{
+ "A2_missing_twist": {
+  "rows": [
+   {
+    "cell": "b01-bs01",
+    "pinned_types": 1361,
+    "twist_collapsed_types": 1361,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   },
+   {
+    "cell": "b01-bs10",
+    "pinned_types": 1286,
+    "twist_collapsed_types": 1286,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   },
+   {
+    "cell": "b01-bs12",
+    "pinned_types": 693,
+    "twist_collapsed_types": 693,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   },
+   {
+    "cell": "b01-bs21",
+    "pinned_types": 669,
+    "twist_collapsed_types": 669,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   },
+   {
+    "cell": "b12-bs01",
+    "pinned_types": 693,
+    "twist_collapsed_types": 693,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   },
+   {
+    "cell": "b12-bs10",
+    "pinned_types": 669,
+    "twist_collapsed_types": 669,
+    "pinned_status": "COMPLETE",
+    "adv_status": "COMPLETE",
+    "loss": 0
+   }
+  ],
+  "adversary_is_detected": false
+ }
+}

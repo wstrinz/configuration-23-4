@@ -1,0 +1,105 @@
+### n15-b01-bs01  (analogue of the n=23 frame)
+{
+ "profile": {
+  "n": 15,
+  "pair_idx": [
+   1,
+   1,
+   3
+  ],
+  "a": 2,
+  "cell": "n15-b01-bs01  (analogue of the n=23 frame)"
+ },
+ "brute_force_labelled_structures": 64,
+ "brute_force_bare_types": 1,
+ "brute_force_fence_valid_types": 1,
+ "fence_validity_is_type_level": true,
+ "normalised_labelled_structures": 8,
+ "normalised_bare_types": 1,
+ "gamma_order": 512,
+ "SET_EQUALITY_normalised_vs_bruteforce_fencevalid": true,
+ "normalised_output_all_fence_valid": true,
+ "missing_from_normalised": 0,
+ "extra_in_normalised": 0,
+ "MULTIPLICITY_gamma_orbit_equals_bruteforce_count": true,
+ "multiplicity_table": [
+  [
+   64,
+   64,
+   64,
+   1
+  ]
+ ],
+ "A4_premature_prune_variants": {
+  "prunes=('bad',)": {
+   "labelled": 8,
+   "types": 1,
+   "same_type_set": true
+  },
+  "prunes=('omin',)": {
+   "labelled": 8,
+   "types": 1,
+   "same_type_set": true
+  },
+  "prunes=()": {
+   "labelled": 8,
+   "types": 1,
+   "same_type_set": true
+  }
+ },
+ "abstract_vs_geometric_separation": {
+  "types_satisfying_only_the_abstract_axioms": 0,
+  "types_also_fence_valid": 1
+ },
+ "seconds": 14.6
+}
+### n15-b03-bs01  (a=1: proved EMPTY by Corollary D1)
+{
+ "profile": {
+  "n": 15,
+  "pair_idx": [
+   1,
+   1,
+   3,
+   3,
+   3
+  ],
+  "a": 1,
+  "cell": "n15-b03-bs01  (a=1: proved EMPTY by Corollary D1)"
+ },
+ "brute_force_labelled_structures": 0,
+ "brute_force_bare_types": 0,
+ "brute_force_fence_valid_types": 0,
+ "fence_validity_is_type_level": true,
+ "normalised_labelled_structures": 0,
+ "normalised_bare_types": 0,
+ "gamma_order": 1536,
+ "SET_EQUALITY_normalised_vs_bruteforce_fencevalid": true,
+ "normalised_output_all_fence_valid": true,
+ "missing_from_normalised": 0,
+ "extra_in_normalised": 0,
+ "MULTIPLICITY_gamma_orbit_equals_bruteforce_count": true,
+ "multiplicity_table": [],
+ "A4_premature_prune_variants": {
+  "prunes=('bad',)": {
+   "labelled": 0,
+   "types": 0,
+   "same_type_set": true
+  },
+  "prunes=('omin',)": {
+   "labelled": 0,
+   "types": 0,
+   "same_type_set": true
+  },
+  "prunes=()": {
+   "labelled": 0,
+   "types": 0,
+   "same_type_set": true
+  }
+ },
+ "abstract_vs_geometric_separation": {
+  "types_satisfying_only_the_abstract_axioms": 0,
+  "types_also_fence_valid": 0
+ },
+ "seconds": 3.3
+}

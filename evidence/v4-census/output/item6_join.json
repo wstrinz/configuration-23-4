@@ -1,0 +1,73 @@
+{
+ "J1_per_cell": {
+  "b01-bs01": {
+   "sidecar_types": 1361,
+   "independent_types": 1361,
+   "agree": true,
+   "corpus_cell_set_size": 1361,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  },
+  "b01-bs10": {
+   "sidecar_types": 1286,
+   "independent_types": 1286,
+   "agree": true,
+   "corpus_cell_set_size": 1286,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  },
+  "b01-bs12": {
+   "sidecar_types": 693,
+   "independent_types": 693,
+   "agree": true,
+   "corpus_cell_set_size": 693,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  },
+  "b01-bs21": {
+   "sidecar_types": 669,
+   "independent_types": 669,
+   "agree": true,
+   "corpus_cell_set_size": 669,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  },
+  "b12-bs01": {
+   "sidecar_types": 693,
+   "independent_types": 693,
+   "agree": true,
+   "corpus_cell_set_size": 693,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  },
+  "b12-bs10": {
+   "sidecar_types": 669,
+   "independent_types": 669,
+   "agree": true,
+   "corpus_cell_set_size": 669,
+   "SET_EQUAL": true,
+   "n_missing": 0,
+   "n_extra": 0
+  }
+ },
+ "J1_all_agree": true,
+ "J1_all_cell_sets_equal": true,
+ "J2_independent_bare_types": 5299,
+ "J2_corpus_bare_types": 5299,
+ "J2_missing_from_independent": [],
+ "J2_extra_in_independent": [],
+ "J2_n_missing": 0,
+ "J2_n_extra": 0,
+ "J2_EXACT_SET_EQUALITY": true,
+ "J3_independent_coherent_classes": 5371,
+ "J3_corpus_coherent_classes": 5299,
+ "J3_corpus_subset_of_independent": true,
+ "J3_n_coherent_only_in_independent": 72,
+ "J3_note": "the corpus stores exactly one V4 action per bare type; a bare type occurring in k of the six sub-cells carries k pairwise coherently-inequivalent fence-valid actions, so the independent coherent-class count is larger by construction and this is NOT a discrepancy",
+ "elapsed_seconds": 525.4
+}
