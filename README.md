@@ -1,6 +1,7 @@
 # A real affine (23_4) configuration
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22662692.svg)](https://doi.org/10.5281/zenodo.22662692)
+[![Palomar Registry: PALOMAR-2026-09-08-000004 v1](https://img.shields.io/badge/Palomar-PALOMAR--2026--09--08--000004%20v1-5b4b8a)](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1)
 
 <p align="center">
   <img src="assets/all-finite-header.svg" width="100%" alt="All 23 points and 23 lines of the real (23,4) configuration">
@@ -13,6 +14,8 @@ and exactly four selected points on each selected line.
 This repository gives explicit rational coordinates and a Lean proof of
 existence over the real numbers. The proof requires no search program,
 numerical tolerance, census certificate or assumption about realizability.
+The audited `v1.0.1` snapshot is registered as
+[PALOMAR-2026-09-08-000004 v1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1).
 
 ## Read the result
 
