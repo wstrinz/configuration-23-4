@@ -136,10 +136,11 @@ The continuing project has concept DOI
 [10.5281/zenodo.22662692](https://doi.org/10.5281/zenodo.22662692).
 The Palomar-registered existence release, `v1.0.1`, is archived as
 [10.5281/zenodo.22663385](https://doi.org/10.5281/zenodo.22663385).
-Release `v1.1.0` adds the public V4-classification evidence; the concept DOI
-above always resolves to the newest archived release. See [ZENODO.md](ZENODO.md)
-and [CITATION.cff](CITATION.cff) for details, and [RELEASES.md](RELEASES.md)
-for the evidence-release notes.
+Release `v1.1.0` adds the public V4-classification evidence and is archived as
+[10.5281/zenodo.22666118](https://doi.org/10.5281/zenodo.22666118). The concept
+DOI above always resolves to the newest archived release. See
+[ZENODO.md](ZENODO.md) and [CITATION.cff](CITATION.cff) for details, and
+[RELEASES.md](RELEASES.md) for the evidence-release notes.
 The [generated sharing cover](assets/sharing-cover.png) is available with its
 [prompt and provenance](assets/README.md). The exact construction is also
 available as a text-free [1500 x 900 PNG](assets/all-finite-header.png) for

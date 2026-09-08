@@ -20,6 +20,12 @@ E1/E2/CT1-S1 combinatorial audit, and the correspondence-ready one-page PDF.
 It is a GitHub/Zenodo evidence release; the Palomar record above remains a
 registration of the narrower `v1.0.1` Lean-existence snapshot.
 
+Its immutable links are:
+
+- version DOI: [10.5281/zenodo.22666118](https://doi.org/10.5281/zenodo.22666118)
+- GitHub release: [v1.1.0](https://github.com/wstrinz/configuration-23-4/releases/tag/v1.1.0)
+- exact release commit: [`bba394fbe2667b0fafc10efd72b427becc4ddaaa`](https://github.com/wstrinz/configuration-23-4/commit/bba394fbe2667b0fafc10efd72b427becc4ddaaa)
+
 The initial release, `v1.0.0`, has these immutable links:
 
 - version DOI: [10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693)
@@ -37,9 +43,16 @@ a historical version DOI. Neither identifier belongs to this construction.
 
 ## Verification
 
-The `v1.0.1` record was independently downloaded and integrity-checked before
-the evidence release. The `v1.1.0` record and archive are checked separately
-after the GitHub-Zenodo integration creates them.
+The `v1.1.0` Zenodo archive was independently downloaded and passed a complete
+ZIP integrity test. It is `wstrinz/configuration-23-4-v1.1.0.zip`, 3,048,037
+bytes, with MD5 `969603c48285a15fb7812b651b9ba75a`; its root identifies release
+commit `bba394f`. It contains the public evidence tree and
+`docs/exact-one-page.pdf`. That PDF has SHA-256
+`830a8dadcb470191ed2d06afd9943c24a20962a9bff853a11566d9b6c9dcadf0`, matching
+the checked repository attachment byte for byte.
+
+The earlier `v1.0.1` archive was also independently downloaded and
+integrity-checked before the evidence release.
 
 The concept DOI belongs in the README badge and CITATION.cff. Do not put it into
 .zenodo.json's `doi` field: that field identifies

@@ -148,7 +148,7 @@
   "LITERATURE.md": "693a340b601b8d0ac8d4640a8bad4e9aae12662c3d98dc79e73e1f9064dabb62",
   "orbit-verification.json": "f909dfcaeb51f3794523a0b9313de115c1d6a00f620e6bf8335751f1805efde2",
   "PROOF.md": "83baa2da53a1f059514d96a6d8f3934c354e9b07942f474cd65dc4de044abb7e",
-  "README.md": "af163671d7fcc1d4ca5a2711714e217bb9ef68dbe0b08fdc5520ffebc16260d3",
+  "README.md": "60563d79f08dcdeae1d9d11dc1555cddb787a9db2de01f65bfaee133832d61aa",
   "RELEASES.md": "4cce774ec93b4967081266eb95207232c7baafd4e611489794f23a0a993d7701",
   "requirements-validation.txt": "70a5cbb5439bcaa1e8d71f368fe5273ba76a4660906b1a0b3e310da8af7aeead",
   "schema/v0.4.schema.json": "25ff6b25ca4511635aff4443cf20480c15e59dddf19591c730950b442ea54fce",
@@ -160,7 +160,7 @@
   "Solution.lean": "54758e9a6a7e326f8833c46cf67651630b9dfe02438f758f32aea2551709b61d",
   "standalone/Witness.lean": "916429fe81419f4d3da9460533386d279a0b07f592c5f251c68fd5b5185bdd62",
   "STATEMENT_AUDIT.md": "2152a66e72c868e86ec651e23925934b5ce7c7e383e7dd57fea5cb3f4db93e7c",
-  "SUBMISSION.md": "16150610ebeb09ba5ff80b65380b68f2865150a9fe2b456c770dcff9ef7cd421",
+  "SUBMISSION.md": "3ffcde7e6bb6f29e970da3f60695552d5337e98ac197d7010734e4ea8e80bb33",
   "third_party/formalization-yaml-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
   "third_party/PalomarTemplate-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
   "THIRD_PARTY.md": "9e891fa9354a29570a8d66bf4ceb79ff8f95f7b6134e7d0da969e816130272dc",
@@ -170,5 +170,5 @@
   "verification/standalone.log": "70413773a23e6adc5a9d94730ef50f1d98d0a3ae71ce8cd8dc208c766ffba62b",
   "verification/workflow-lint.txt": "c492f63bec681ac8d498c5201e588b8f9a60e21cd14f154b43b02f2c5cd95b6c",
   "VERIFICATION.md": "620d52bc5e8152608c938a44c87791961e42c6cfeb041bed4c42cd424b38725a",
-  "ZENODO.md": "8a53ca4265e9d8b4413240b94066a9aebcb10d766fac531c2198d156b8b8ebbf"
+  "ZENODO.md": "207bfc08fba121b624610ab148db0ddf8b015788e4eb87ee86b99dff44a34a77"
 }
