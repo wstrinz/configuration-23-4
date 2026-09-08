@@ -1,5 +1,7 @@
 # A real affine (23_4) configuration
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22662692.svg)](https://doi.org/10.5281/zenodo.22662692)
+
 <p align="center">
   <img src="assets/all-finite-header.svg" width="100%" alt="All 23 points and 23 lines of the real (23,4) configuration">
 </p>
@@ -94,8 +96,11 @@ Nothing here automatically submits or registers the project.
 
 ## Citation and sharing
 
-See [ZENODO.md](ZENODO.md) for the first-release DOI handoff and
-[CITATION.cff](CITATION.cff) for citation metadata. No DOI has been minted yet.
+The continuing project has concept DOI
+[10.5281/zenodo.22662692](https://doi.org/10.5281/zenodo.22662692).
+Release `v1.0.0` is archived as
+[10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693).
+See [ZENODO.md](ZENODO.md) and [CITATION.cff](CITATION.cff) for details.
 The [generated sharing cover](assets/sharing-cover.png) is available with its
 [prompt and provenance](assets/README.md). The exact construction is also
 available as a text-free [1500 x 900 PNG](assets/all-finite-header.png) for

@@ -20,9 +20,10 @@ unrelated files in the original campaign by this export.
 
 ## Final checks before intake
 
-Prepare the public repository's Zenodo integration and citation metadata as
-described in [ZENODO.md](ZENODO.md). Record the actual version DOI after archival;
-the Palomar commit must still be identified separately and precisely.
+The public repository's Zenodo integration and citation metadata are recorded
+in [ZENODO.md](ZENODO.md). Release `v1.0.0` has version DOI
+`10.5281/zenodo.22662693`; the Palomar commit must still be identified
+separately and precisely.
 
 1. Incorporate the parallel literature review, updating LITERATURE.md and
    formalization.yaml if it finds prior constructions or source corrections.

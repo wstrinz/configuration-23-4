@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the archived release used for reproducibility; see ZENODO.md for DOI setup."
+message: "Please cite the archived release used for reproducibility."
 title: "A real affine (23_4) configuration"
 type: software
 version: "v1.0.0"
@@ -22,5 +22,11 @@ keywords:
   - rational construction
 license: MIT
 repository-code: "https://github.com/wstrinz/configuration-23-4"
-# DOI is omitted until Zenodo has actually minted it.
-# Never copy the example repository's DOI into this project.
+doi: "10.5281/zenodo.22662692"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22662692"
+    description: "Concept DOI for the continuing project"
+  - type: doi
+    value: "10.5281/zenodo.22662693"
+    description: "Version DOI for v1.0.0"
