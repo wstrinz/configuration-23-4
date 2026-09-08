@@ -26,7 +26,7 @@ sources:
   - title: "(22_4) and (26_4) configurations of lines"
     authors: ["Michael Cuntz"]
     id: "https://doi.org/10.26493/1855-3974.1402.733"
-    type: "article"
+    type: "paper"
     relationship: "background"
     location: "Ars Mathematica Contemporanea 14 (2018), 157–163; section 2"
     author_endorsement: "not-contacted"

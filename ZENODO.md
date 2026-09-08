@@ -1,9 +1,11 @@
 # Zenodo release and citation
 
-Prepared for Will Strinz under MIT. No DOI has been minted for this package.
+Prepared for Will Strinz under MIT as release `v1.0.0`, dated 2026-09-08.
+No DOI has been minted for this package.
 The public repository is https://github.com/wstrinz/configuration-23-4.
-Its Zenodo integration has not yet been verified or enabled by this build.
-These files prepare that step; they do not activate the integration.
+Its Zenodo integration was checked through the repository's GitHub hook list on
+2026-09-08 and is not yet enabled. These files prepare that step; they do not
+activate the integration.
 
 The inspected example is
 [plane-jacobian-72-108](https://github.com/wstrinz/plane-jacobian-72-108).
@@ -17,10 +19,9 @@ a historical version DOI. Neither identifier belongs to this construction.
 2. In the maintainer's Zenodo account, open GitHub, sync the repositories, and
    enable this specific repository. Existing integration for another repository
    does not establish that this new one is enabled.
-3. Choose the release tag and date. Set matching `version` in both metadata
-   files, `date-released` in CITATION.cff and `publication_date` in .zenodo.json.
-   Dates must be ISO YYYY-MM-DD. Regenerate manifest.json, commit, push, and
-   observe the focused repository CI before publishing the GitHub release.
+3. The selected release is tag `v1.0.0`, dated 2026-09-08. Matching values are
+   populated in both metadata files. Regenerate manifest.json, commit, push,
+   and observe the focused repository CI before publishing the GitHub release.
 4. Publish the release from the reviewed immutable commit. Observe successful
    archival in Zenodo and verify the archived source, title, author, license,
    version and repository association. Record both returned DOI identifiers.

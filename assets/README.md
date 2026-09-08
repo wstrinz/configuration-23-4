@@ -8,6 +8,11 @@ Line and point colors record the eight sign orbits, while the `y` reflection
 remains visible. The SVG contains no visible labels or generated geometry and
 is suitable as the repository README header.
 
+The [1500 x 900 PNG](all-finite-header.png) is a direct Chromium render of that
+SVG for services that do not accept vector images. It contains the same exact
+chart geometry and no visible text. SHA-256:
+`3be9f7982e4255779dfdc6e7f5e500e5a53080d8215031438b321c52b51fce02`.
+
 ## Generated sharing cover
 
 Generated on 2026-09-08 using the built-in image generation tool (no CLI fallback).

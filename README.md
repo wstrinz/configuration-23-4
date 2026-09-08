@@ -97,4 +97,7 @@ Nothing here automatically submits or registers the project.
 See [ZENODO.md](ZENODO.md) for the first-release DOI handoff and
 [CITATION.cff](CITATION.cff) for citation metadata. No DOI has been minted yet.
 The [generated sharing cover](assets/sharing-cover.png) is available with its
-[prompt and provenance](assets/README.md). Use either exact SVG for geometry.
+[prompt and provenance](assets/README.md). The exact construction is also
+available as a text-free [1500 x 900 PNG](assets/all-finite-header.png) for
+sharing; use [the corresponding SVG](assets/all-finite-header.svg) when a
+scalable figure is preferable.
