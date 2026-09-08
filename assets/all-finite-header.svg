@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1.2 -1.02 3.4 2.04" role="img" aria-labelledby="title desc">
+  <title id="title">An all-finite drawing of the real (23,4) configuration</title>
+  <desc id="desc">All 23 points and 23 straight lines, colored by orbit, in a projective chart preserving one mirror symmetry.</desc>
+  <rect x="-1.2" y="-1.02" width="3.4" height="2.04" fill="#faf9f5"/>
+
+  <!-- The chart has affine coordinates X = x/(x+3z),
+       Y = 27y/(20(x+3z)). -->
+  <g transform="scale(1,-1)" fill="none" stroke-width="0.0042" opacity="0.88">
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#25282d"/>
+
+    <line x1="-10" y1="4.95" x2="10" y2="-4.05" stroke="#df4938"/>
+    <line x1="-10" y1="-4.95" x2="10" y2="4.05" stroke="#df4938"/>
+
+    <line x1="-10" y1="3.3" x2="10" y2="-2.7" stroke="#ed781f"/>
+    <line x1="-10" y1="-3.3" x2="10" y2="2.7" stroke="#ed781f"/>
+
+    <line x1="-10" y1="-4.5" x2="10" y2="4.5" stroke="#3b93b8"/>
+    <line x1="-10" y1="4.5" x2="10" y2="-4.5" stroke="#3b93b8"/>
+
+    <line x1="-10" y1="11.7" x2="10" y2="-10.8" stroke="#a65ac5"/>
+    <line x1="-10" y1="-1.8" x2="10" y2="2.7" stroke="#a65ac5"/>
+    <line x1="-10" y1="1.8" x2="10" y2="-2.7" stroke="#a65ac5"/>
+    <line x1="-10" y1="-11.7" x2="10" y2="10.8" stroke="#a65ac5"/>
+
+    <line x1="-10" y1="6.3" x2="10" y2="-5.7" stroke="#20a58f"/>
+    <line x1="-10" y1="0.3" x2="10" y2="0.3" stroke="#20a58f"/>
+    <line x1="-10" y1="-0.3" x2="10" y2="-0.3" stroke="#20a58f"/>
+    <line x1="-10" y1="-6.3" x2="10" y2="5.7" stroke="#20a58f"/>
+
+    <line x1="-10" y1="7.38" x2="10" y2="-7.02" stroke="#8d9627"/>
+    <line x1="-10" y1="-7.38" x2="10" y2="7.02" stroke="#8d9627"/>
+    <line x1="-10" y1="-3.42" x2="10" y2="3.78" stroke="#8d9627"/>
+    <line x1="-10" y1="3.42" x2="10" y2="-3.78" stroke="#8d9627"/>
+
+    <line x1="-10" y1="-36.9" x2="10" y2="35.1" stroke="#c66b20"/>
+    <line x1="-10" y1="36.9" x2="10" y2="-35.1" stroke="#c66b20"/>
+    <line x1="-10" y1="17.1" x2="10" y2="-18.9" stroke="#c66b20"/>
+    <line x1="-10" y1="-17.1" x2="10" y2="18.9" stroke="#c66b20"/>
+  </g>
+
+  <g transform="scale(1,-1)" stroke="#faf9f5" stroke-width="0.009">
+    <circle cx="1" cy="0" r="0.025" fill="#25282d"/>
+
+    <circle cx="0" cy="0.45" r="0.025" fill="#df4938"/>
+    <circle cx="0" cy="-0.45" r="0.025" fill="#df4938"/>
+
+    <circle cx="0" cy="0.3" r="0.025" fill="#ed781f"/>
+    <circle cx="0" cy="-0.3" r="0.025" fill="#ed781f"/>
+
+    <circle cx="0.25" cy="0" r="0.025" fill="#3b93b8"/>
+    <circle cx="-0.5" cy="0" r="0.025" fill="#3b93b8"/>
+
+    <circle cx="-1" cy="0.9" r="0.025" fill="#a65ac5"/>
+    <circle cx="0.3333333333" cy="0.3" r="0.025" fill="#a65ac5"/>
+    <circle cx="0.3333333333" cy="-0.3" r="0.025" fill="#a65ac5"/>
+    <circle cx="-1" cy="-0.9" r="0.025" fill="#a65ac5"/>
+
+    <circle cx="0.1818181818" cy="0.2454545455" r="0.025" fill="#20a58f"/>
+    <circle cx="-0.2857142857" cy="0.3857142857" r="0.025" fill="#20a58f"/>
+    <circle cx="-0.2857142857" cy="-0.3857142857" r="0.025" fill="#20a58f"/>
+    <circle cx="0.1818181818" cy="-0.2454545455" r="0.025" fill="#20a58f"/>
+
+    <circle cx="0.2857142857" cy="0.1285714286" r="0.025" fill="#8d9627"/>
+    <circle cx="-0.6666666667" cy="0.3" r="0.025" fill="#8d9627"/>
+    <circle cx="-0.6666666667" cy="-0.3" r="0.025" fill="#8d9627"/>
+    <circle cx="0.2857142857" cy="-0.1285714286" r="0.025" fill="#8d9627"/>
+
+    <circle cx="2" cy="0.9" r="0.025" fill="#c66b20"/>
+    <circle cx="0.6666666667" cy="-0.3" r="0.025" fill="#c66b20"/>
+    <circle cx="0.6666666667" cy="0.3" r="0.025" fill="#c66b20"/>
+    <circle cx="2" cy="-0.9" r="0.025" fill="#c66b20"/>
+  </g>
+</svg>

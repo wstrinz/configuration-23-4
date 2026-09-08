@@ -1,11 +1,12 @@
 # Sharing cover
 
-The text-free [symmetric header](symmetric-header.svg) is an exact rendering of
-the packaged homogeneous witness in the `z = 1` chart, followed by the affine
-rescaling `x -> x / 2`. Line and point colors record the eight orbits under the
-two coordinate reflections. P1 lies at infinity and appears through its four
-parallel horizontal lines. The SVG contains no visible labels or generated
-geometry and is suitable as the repository README header.
+The text-free [all-finite header](all-finite-header.svg) is an exact rendering
+of the packaged homogeneous witness in the chart whose line at infinity is
+`x + 3z = 0`. Its affine coordinates are
+`X = x / (x + 3z)` and `Y = 27y / (20(x + 3z))`. All 23 points are finite.
+Line and point colors record the eight sign orbits, while the `y` reflection
+remains visible. The SVG contains no visible labels or generated geometry and
+is suitable as the repository README header.
 
 ## Generated sharing cover
 

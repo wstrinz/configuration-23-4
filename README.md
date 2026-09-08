@@ -1,7 +1,7 @@
 # A real affine (23_4) configuration
 
 <p align="center">
-  <img src="assets/symmetric-header.svg" width="100%" alt="A mirror-symmetric drawing of the real (23,4) configuration">
+  <img src="assets/all-finite-header.svg" width="100%" alt="All 23 points and 23 lines of the real (23,4) configuration">
 </p>
 
 There exist 23 distinct points and 23 distinct straight lines in the real
@@ -21,10 +21,10 @@ numerical tolerance, census certificate or assumption about realizability.
   distinct real points and straight lines with exact degree four.
 - [coordinates.json](coordinates.json): the rational homogeneous witness from
   which the displayed affine coordinates were obtained.
-- [symmetric-header.svg](assets/symmetric-header.svg): the exact, orbit-colored
-  `z = 1` chart used above. One point lies at infinity on the four horizontal
-  lines; [configuration.svg](configuration.svg) gives an alternative chart in
-  which all 23 points are finite.
+- [all-finite-header.svg](assets/all-finite-header.svg): the exact, orbit-colored
+  chart used above, with all 23 points visible. The line at infinity is
+  `x + 3z = 0`; [configuration.svg](configuration.svg) gives another all-finite
+  chart optimized for compact affine coordinates.
 
 The deliberate hole in Challenge is a statement for Comparator to check.
 Solution does not import Challenge and has no unproved declarations.
