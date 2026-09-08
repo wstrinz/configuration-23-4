@@ -1,6 +1,6 @@
 # A real affine (23_4) configuration
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22662692.svg)](https://doi.org/10.5281/zenodo.22662692)
+[![DOI: 10.5281/zenodo.22662692](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22662692-blue.svg)](https://doi.org/10.5281/zenodo.22662692)
 [![Palomar Registry: PALOMAR-2026-09-08-000004 v1](https://img.shields.io/badge/Palomar-PALOMAR--2026--09--08--000004%20v1-5b4b8a)](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1)
 
 <p align="center">
