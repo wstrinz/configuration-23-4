@@ -86,23 +86,24 @@ question discussed by [Cuntz (2017/2018)](https://arxiv.org/abs/1705.00927).
 Will Strinz directed the project and is the author and responsible maintainer.
 Codex assisted discovery, exact checks, formalization and packaging.
 [formalization.yaml](formalization.yaml) discloses sources, automation and
-review. There has been no independent human peer review or Palomar registration.
+review. Palomar's automated editorial review found no blocking problem, warning
+or requested change for the registered `v1.0.1` snapshot. There has been no
+independent human peer review.
 The project is MIT licensed; third-party materials retain the licenses
 listed in [THIRD_PARTY.md](THIRD_PARTY.md).
 
 ## Release and submission
 
 This is the focused public repository for the construction and formal proof.
-See [SUBMISSION.md](SUBMISSION.md) for the export and final snapshot steps.
-Palomar's submission host is https://submit.palomar-registry.org/.
-Nothing here automatically submits or registers the project.
+See [SUBMISSION.md](SUBMISSION.md) for the export, verification and registration
+record.
 
 ## Citation and sharing
 
 The continuing project has concept DOI
 [10.5281/zenodo.22662692](https://doi.org/10.5281/zenodo.22662692).
-Release `v1.0.0` is archived as
-[10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693).
+The Palomar-registered release, `v1.0.1`, is archived as
+[10.5281/zenodo.22663385](https://doi.org/10.5281/zenodo.22663385).
 See [ZENODO.md](ZENODO.md) and [CITATION.cff](CITATION.cff) for details.
 The [generated sharing cover](assets/sharing-cover.png) is available with its
 [prompt and provenance](assets/README.md). The exact construction is also

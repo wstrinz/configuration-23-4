@@ -18,12 +18,15 @@ Its root contains the verified release sources including dotfiles.
 The root LICENSE is MIT, as selected by Will Strinz. No license is assigned to
 unrelated files in the original campaign by this export.
 
-## Final checks before intake
+## Archived submission record
 
 The public repository's Zenodo integration and citation metadata are recorded
-in [ZENODO.md](ZENODO.md). Release `v1.0.0` has version DOI
-`10.5281/zenodo.22662693`; the Palomar commit must still be identified
-separately and precisely.
+in [ZENODO.md](ZENODO.md). Release `v1.0.1` has version DOI
+`10.5281/zenodo.22663385`. Palomar registered its exact commit
+`94fc8964562fa9e246c8c7b1657e2e135bda35f6` as
+[PALOMAR-2026-09-08-000004 v1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1).
+
+The following checklist records the intake preparation used for that snapshot:
 
 1. Incorporate the parallel literature review, updating LITERATURE.md and
    formalization.yaml if it finds prior constructions or source corrections.
@@ -56,9 +59,9 @@ authorization. No approval from a cited background-source author is claimed.
 Follow the current instructions at https://palomar-registry.org/how-to-submit.
 An agent must read https://submit.palomar-registry.org/llms.txt and use its
 documented protocol rather than drive the browser form. Repository/tag/gist
-authorization and later registration are separate external actions, not
-performed by this build. Preserve the private status link returned at intake.
+authorization and registration occur outside the build. Both were completed for
+the immutable `v1.0.1` snapshot.
 
 Palomar's automated review and independent kernel checks do not establish
-publication priority or constitute human expert peer review. Registering is
-a later maintainer decision about the reviewed immutable snapshot.
+publication priority or constitute human expert peer review. The maintainer
+separately approved permanent registration after reading the completed review.

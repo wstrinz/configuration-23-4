@@ -19,7 +19,7 @@ controls and rebuilt. Raw evidence is in verification/.
 | GitHub Actions workflow static validation | PASS, actionlint 1.7.7 |
 | Exported standalone archive build | PASS; 829 jobs, identical module hashes |
 | GitHub-hosted CI | PASS ([run 34240050282](https://github.com/wstrinz/configuration-23-4/actions/runs/34240050282)) |
-| Palomar intake/editorial review/registration | Not performed |
+| Palomar intake, mechanical verification, editorial review and registration | PASS; [PALOMAR-2026-09-08-000004 v1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1) |
 
 The positive Comparison log ends with:
 
