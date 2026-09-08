@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3.65 -2.19 7.3 4.38" role="img" aria-labelledby="title desc">
+  <title id="title">Mirror-symmetric drawing of the real (23,4) configuration</title>
+  <desc id="desc">An exact z equals one projective chart. Twenty-two colored points are finite; the remaining point is at infinity on the four horizontal lines.</desc>
+  <rect x="-3.65" y="-2.19" width="7.3" height="4.38" fill="#faf9f5"/>
+  <g transform="scale(1,-1)" fill="none" stroke-width="0.009" opacity="0.88">
+    <!-- Line orbits under the two coordinate reflections. -->
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#25282d"/>
+
+    <line x1="-10" y1="1" x2="10" y2="1" stroke="#df4938"/>
+    <line x1="-10" y1="-1" x2="10" y2="-1" stroke="#df4938"/>
+
+    <line x1="-10" y1="0.6666666667" x2="10" y2="0.6666666667" stroke="#ed781f"/>
+    <line x1="-10" y1="-0.6666666667" x2="10" y2="-0.6666666667" stroke="#ed781f"/>
+
+    <line x1="-10" y1="-6.6666666667" x2="10" y2="6.6666666667" stroke="#3b93b8"/>
+    <line x1="-10" y1="6.6666666667" x2="10" y2="-6.6666666667" stroke="#3b93b8"/>
+
+    <line x1="-10" y1="11" x2="10" y2="-9" stroke="#a65ac5"/>
+    <line x1="-10" y1="-9" x2="10" y2="11" stroke="#a65ac5"/>
+    <line x1="-10" y1="9" x2="10" y2="-11" stroke="#a65ac5"/>
+    <line x1="-10" y1="-11" x2="10" y2="9" stroke="#a65ac5"/>
+
+    <line x1="-10" y1="5.1111111111" x2="10" y2="-3.7777777778" stroke="#20a58f"/>
+    <line x1="-10" y1="-3.7777777778" x2="10" y2="5.1111111111" stroke="#20a58f"/>
+    <line x1="-10" y1="3.7777777778" x2="10" y2="-5.1111111111" stroke="#20a58f"/>
+    <line x1="-10" y1="-5.1111111111" x2="10" y2="3.7777777778" stroke="#20a58f"/>
+
+    <line x1="-10" y1="8.4" x2="10" y2="-7.6" stroke="#8d9627"/>
+    <line x1="-10" y1="-8.4" x2="10" y2="7.6" stroke="#8d9627"/>
+    <line x1="-10" y1="7.6" x2="10" y2="-8.4" stroke="#8d9627"/>
+    <line x1="-10" y1="-7.6" x2="10" y2="8.4" stroke="#8d9627"/>
+
+    <line x1="-10" y1="-42" x2="10" y2="38" stroke="#c66b20"/>
+    <line x1="-10" y1="42" x2="10" y2="-38" stroke="#c66b20"/>
+    <line x1="-10" y1="38" x2="10" y2="-42" stroke="#c66b20"/>
+    <line x1="-10" y1="-38" x2="10" y2="42" stroke="#c66b20"/>
+  </g>
+
+  <!-- Finite points in the same chart; P1 is the common point at infinity
+       of the four horizontal lines. -->
+  <g transform="scale(1,-1)" stroke="#faf9f5" stroke-width="0.018">
+    <g fill="#df4938">
+      <circle cx="0" cy="1" r="0.052"/><circle cx="0" cy="-1" r="0.052"/>
+    </g>
+    <g fill="#ed781f">
+      <circle cx="0" cy="0.6666666667" r="0.052"/><circle cx="0" cy="-0.6666666667" r="0.052"/>
+    </g>
+    <g fill="#3b93b8">
+      <circle cx="0.5" cy="0" r="0.052"/><circle cx="-0.5" cy="0" r="0.052"/>
+    </g>
+    <g fill="#a65ac5">
+      <circle cx="-0.75" cy="1" r="0.052"/><circle cx="0.75" cy="1" r="0.052"/>
+      <circle cx="0.75" cy="-1" r="0.052"/><circle cx="-0.75" cy="-1" r="0.052"/>
+    </g>
+    <g fill="#20a58f">
+      <circle cx="0.3333333333" cy="0.6666666667" r="0.052"/><circle cx="-0.3333333333" cy="0.6666666667" r="0.052"/>
+      <circle cx="-0.3333333333" cy="-0.6666666667" r="0.052"/><circle cx="0.3333333333" cy="-0.6666666667" r="0.052"/>
+    </g>
+    <g fill="#8d9627">
+      <circle cx="0.6" cy="0.4" r="0.052"/><circle cx="-0.6" cy="0.4" r="0.052"/>
+      <circle cx="-0.6" cy="-0.4" r="0.052"/><circle cx="0.6" cy="-0.4" r="0.052"/>
+    </g>
+    <g fill="#c66b20">
+      <circle cx="-3" cy="-2" r="0.052"/><circle cx="3" cy="-2" r="0.052"/>
+      <circle cx="3" cy="2" r="0.052"/><circle cx="-3" cy="2" r="0.052"/>
+    </g>
+  </g>
+</svg>

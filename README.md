@@ -1,5 +1,9 @@
 # A real affine (23_4) configuration
 
+<p align="center">
+  <img src="assets/symmetric-header.svg" width="100%" alt="A mirror-symmetric drawing of the real (23,4) configuration">
+</p>
+
 There exist 23 distinct points and 23 distinct straight lines in the real
 affine plane, with exactly four selected lines through each selected point
 and exactly four selected points on each selected line.
@@ -7,8 +11,6 @@ and exactly four selected points on each selected line.
 This repository gives explicit rational coordinates and a Lean proof of
 existence over the real numbers. The proof requires no search program,
 numerical tolerance, census certificate or assumption about realizability.
-
-![The configuration in a finite affine chart](configuration.svg)
 
 ## Read the result
 
@@ -19,6 +21,10 @@ numerical tolerance, census certificate or assumption about realizability.
   distinct real points and straight lines with exact degree four.
 - [coordinates.json](coordinates.json): the rational homogeneous witness from
   which the displayed affine coordinates were obtained.
+- [symmetric-header.svg](assets/symmetric-header.svg): the exact, orbit-colored
+  `z = 1` chart used above. One point lies at infinity on the four horizontal
+  lines; [configuration.svg](configuration.svg) gives an alternative chart in
+  which all 23 points are finite.
 
 The deliberate hole in Challenge is a statement for Comparator to check.
 Solution does not import Challenge and has no unproved declarations.
@@ -91,4 +97,4 @@ Nothing here automatically submits or registers the project.
 See [ZENODO.md](ZENODO.md) for the first-release DOI handoff and
 [CITATION.cff](CITATION.cff) for citation metadata. No DOI has been minted yet.
 The [generated sharing cover](assets/sharing-cover.png) is available with its
-[prompt and provenance](assets/README.md). Use the exact SVG above for geometry.
+[prompt and provenance](assets/README.md). Use either exact SVG for geometry.
