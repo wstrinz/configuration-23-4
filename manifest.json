@@ -1,5 +1,5 @@
 {
-  ".gitattributes": "bcecba6da739762be3cf969b0bbc976b78c10ea66636cb81359a3f97bc3c944f",
+  ".gitattributes": "ef7cb2750dbef11ada33c1f18e8c6392d64708176fbd41b463ae3ea8ab4a1f1e",
   ".github/workflows/verify.yml": "bf0b338da1a7d13e2b27ab12e2deb11388add38eecbd2ce9336e37675495ea56",
   ".gitignore": "cbf7e12ec8df8f39f636aa009bd597fa96ff979ffb75d8aaf532f8c80540564f",
   ".zenodo.json": "d46d53ec624298d917b19399507760e15ed0a3115c8958ba4575c886fee8a46d",
