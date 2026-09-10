@@ -26,6 +26,14 @@ Its immutable links are:
 - GitHub release: [v1.1.0](https://github.com/wstrinz/configuration-23-4/releases/tag/v1.1.0)
 - exact release commit: [`bba394fbe2667b0fafc10efd72b427becc4ddaaa`](https://github.com/wstrinz/configuration-23-4/commit/bba394fbe2667b0fafc10efd72b427becc4ddaaa)
 
+Release `v1.2.0` adds the checked acknowledgment and comparison record for
+Wenhao Lu's independent work. Its immutable links are:
+
+- version DOI: [10.5281/zenodo.22690324](https://doi.org/10.5281/zenodo.22690324)
+- record: https://zenodo.org/records/22690324
+- GitHub release: [v1.2.0](https://github.com/wstrinz/configuration-23-4/releases/tag/v1.2.0)
+- exact release commit: [`7a5845d67485c507bee8cfb74c7e524097bc55ca`](https://github.com/wstrinz/configuration-23-4/commit/7a5845d67485c507bee8cfb74c7e524097bc55ca)
+
 The initial release, `v1.0.0`, has these immutable links:
 
 - version DOI: [10.5281/zenodo.22662693](https://doi.org/10.5281/zenodo.22662693)
@@ -42,6 +50,16 @@ Its CITATION.cff uses concept DOI `10.5281/zenodo.21534895` and separately label
 a historical version DOI. Neither identifier belongs to this construction.
 
 ## Verification
+
+The `v1.2.0` Zenodo archive was independently downloaded and passed a complete
+ZIP integrity test. It is `wstrinz/configuration-23-4-v1.2.0.zip`, 3,052,383
+bytes, with MD5 `4bbaa97a21938f136ebcecd79361e8ff` and SHA-256
+`76600baf258f79e1ad8c8519151105837e32a3f49feb52f073f72d86c642516f`.
+Its root identifies release commit `7a5845d`; it contains the independent-work
+acknowledgment and verification receipt, the public evidence tree, and
+`docs/exact-one-page.pdf`. That PDF has SHA-256
+`830a8dadcb470191ed2d06afd9943c24a20962a9bff853a11566d9b6c9dcadf0`, matching
+the checked repository attachment byte for byte.
 
 The `v1.1.0` Zenodo archive was independently downloaded and passed a complete
 ZIP integrity test. It is `wstrinz/configuration-23-4-v1.1.0.zip`, 3,048,037

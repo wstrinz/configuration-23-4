@@ -71,3 +71,8 @@ evidence. It does not change the scope of Palomar registration v1, which
 remains attached to the `v1.0.1` existence snapshot.
 Its immutable version DOI is
 [10.5281/zenodo.22666118](https://doi.org/10.5281/zenodo.22666118).
+
+Release `v1.2.0` adds the checked acknowledgment and comparison record for
+Wenhao Lu's independent work. It is archived under immutable version DOI
+[10.5281/zenodo.22690324](https://doi.org/10.5281/zenodo.22690324) at exact
+release commit `7a5845d67485c507bee8cfb74c7e524097bc55ca`.

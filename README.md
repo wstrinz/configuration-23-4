@@ -154,7 +154,10 @@ The continuing project has concept DOI
 The Palomar-registered existence release, `v1.0.1`, is archived as
 [10.5281/zenodo.22663385](https://doi.org/10.5281/zenodo.22663385).
 Release `v1.1.0` adds the public V4-classification evidence and is archived as
-[10.5281/zenodo.22666118](https://doi.org/10.5281/zenodo.22666118). The concept
+[10.5281/zenodo.22666118](https://doi.org/10.5281/zenodo.22666118).
+Release `v1.2.0` adds the checked acknowledgment of Wenhao Lu's independent
+work and is archived as
+[10.5281/zenodo.22690324](https://doi.org/10.5281/zenodo.22690324). The concept
 DOI above always resolves to the newest archived release. See
 [ZENODO.md](ZENODO.md) and [CITATION.cff](CITATION.cff) for details, and
 [RELEASES.md](RELEASES.md) for the evidence-release notes.
