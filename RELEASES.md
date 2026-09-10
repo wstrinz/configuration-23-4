@@ -1,5 +1,17 @@
 # Release notes
 
+## v1.2.0 - Independent-work acknowledgment
+
+- Acknowledge Wenhao Lu's independently obtained E1 and E2 constructions and
+  Klein-four classification, with a link to his public paper repository.
+- Record the independently replayed rational and quadratic witness checks and
+  the exact source revision used for comparison.
+- Preserve Lu's reported September 6--7 timeline as an attributed statement.
+
+The two projects use different enumeration conventions, so this release does
+not claim equality of intermediate census counts. Both classifications reach
+the same two projective classes.
+
 ## v1.1.0 - V4 classification evidence
 
 - Publish the exact E2 witness over `Q(sqrt(17))` and a dependency-free

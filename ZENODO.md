@@ -54,6 +54,15 @@ the checked repository attachment byte for byte.
 The earlier `v1.0.1` archive was also independently downloaded and
 integrity-checked before the evidence release.
 
+## Independent work
+
+Wenhao Lu independently obtained the same two configurations and an
+independent classification of the Klein-four-symmetric case by a different
+computational route. His draft was communicated to the maintainer on September
+9, 2026; Lu reports that it was written September 6 and submitted as JMM 2027
+abstract 66522 on September 7. The public source and local replay scope are
+recorded in [evidence/independent-work](evidence/independent-work/README.md).
+
 The concept DOI belongs in the README badge and CITATION.cff. Do not put it into
 .zenodo.json's `doi` field: that field identifies
 the individual record. Let the GitHub integration allocate each release DOI.

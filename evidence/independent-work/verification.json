@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "inspection_date": "2026-09-10",
+  "source": {
+    "repository": "https://github.com/welu2027/23_4-configuration",
+    "commit": "9e5cc941d0fea571eb997beb709978d3ffa4d3c7"
+  },
+  "files": {
+    "paper.pdf": "949dec0fb755d4c2165dfa535e69a475784b61a24bc46970251880e84cc6c938",
+    "integer_23_4_certificate.json": "67cf9189edf76212103d0e380fd7b918c1331e36231a7b4e0d967859f14b8a47",
+    "geometric_23_4_certificate.json": "ed17ad5e37ceeb3d7cdbd3aac5cf0a21aaee69589590ff27c0d0cc7625e6e965"
+  },
+  "checks": {
+    "source_check_23_4": "PASS",
+    "source_verify_23_4": "PASS",
+    "e1_point_sets_equal_after_yz_swap": true,
+    "e1_line_sets_equal_after_yz_swap": true,
+    "e2_incidence_types_isomorphic": true,
+    "both_incidence_graphs_4_regular": true
+  },
+  "full_external_classification_replayed": false,
+  "intermediate_census_count_equality_asserted": false
+}

@@ -31,6 +31,9 @@ publication-priority claim.
 5. [The combinatorial audit](combinatorics/REPORT.md) uses BLISS and an
    independent VF2 calculation.  E1, E2 and Cuntz's reconstructed CT1-S1 type
    are pairwise nonisomorphic, even when point-line exchange is permitted.
+6. [The independent-work receipt](independent-work/README.md) records the
+   source revision and local witness replays for Wenhao Lu's independent
+   construction and Klein-four classification.
 
 The retained solver inputs and outputs are exact.  The long census and replay
 receipts preserve source hashes and command versions; reproducing the entire
@@ -51,4 +54,3 @@ repository alone.
 
 The root [one-page attachment](../docs/exact-one-page.pdf) is the compact E1
 coordinate sheet intended for correspondence.
-

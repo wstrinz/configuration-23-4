@@ -17,6 +17,23 @@ numerical tolerance, census certificate or assumption about realizability.
 The original audited `v1.0.1` existence snapshot is registered as
 [PALOMAR-2026-09-08-000004 v1](https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1).
 
+## Independent work by Wenhao Lu
+
+[Wenhao Lu](https://github.com/welu2027/23_4-configuration) (Millburn High
+School) independently obtained the same two configurations and an independent
+classification of the Klein-four-symmetric case. His route begins with a
+finite-field CP-SAT search, followed by a `nauty` quotient enumeration and
+exact Gröbner-basis calculations in Singular, replicated in Macaulay2. Lu first
+contacted the maintainer on September 8, 2026, and communicated his draft on
+September 9. He reports that the draft was written September 6 and submitted as
+JMM 2027 abstract 66522 on September 7.
+
+The rational witnesses agree after interchanging `y` and `z`; the quadratic
+witnesses have isomorphic incidence types, and Lu's draft identifies them
+projectively. Both exact witness checkers in Lu's public repository replayed
+successfully here. See the [independent-work receipt](evidence/independent-work/README.md)
+for the checked source revision and the precise scope of this comparison.
+
 ## Read the result
 
 - [Challenge.lean](Challenge.lean): the independent statement, 35 lines.

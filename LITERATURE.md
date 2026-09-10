@@ -1,9 +1,11 @@
-# Priority audit, 2026-09-08
+# Literature and priority record, updated 2026-09-10
 
-Status: INCONCLUSIVE for priority. No earlier real geometric (23_4)
-construction was located in this bounded audit. Affirmative historical
-open-status evidence was verified, but absence from a search is not evidence
-of absence from all publications, preprints, or unpublished work.
+Status: two independently obtained solutions are now public. This bounded
+audit located no earlier public real geometric (23_4) construction. Wenhao Lu
+reports that his draft was written September 6 and submitted as a JMM abstract
+September 7; Will Strinz's public release appeared September 8. Affirmative
+historical open-status evidence was verified, but absence from a search is not
+evidence of absence from all publications, preprints, or unpublished work.
 
 ## Primary sources and actual dates
 
@@ -64,6 +66,18 @@ of absence from all publications, preprints, or unpublished work.
     results concern improving thresholds for degrees 5 and 6; the inspected
     text supplies no fresh explicit 23_4 open-status statement or solution.
 
+11. Wenhao Lu, [Closing the existence problem for geometric (n_4)
+    configurations](https://github.com/welu2027/23_4-configuration), public
+    repository inspected at commit `9e5cc941d0fea571eb997beb709978d3ffa4d3c7` on
+    2026-09-10. Lu independently obtains the same two configurations and an
+    independent classification of the Klein-four-symmetric case. His draft
+    describes a finite-field CP-SAT search, `nauty` enumeration, and exact
+    Singular computations replicated in Macaulay2. The two witness checkers
+    replayed successfully; the precise local comparison is recorded in
+    [evidence/independent-work](evidence/independent-work/README.md). Lu reports
+    the September 6--7 private timeline above; the public repository was created
+    later and does not independently establish that version history.
+
 ## Search coverage and limits
 
 Queries included notation variants `23_4`, `geometric configurations 23`,
@@ -79,8 +93,8 @@ were followed where available, including journal PDFs rather than abstracts
 copied into ResearchGate. An accidentally opened unrelated arXiv identifier
 2308.12543 was discarded and supplies no evidence.
 
-The latest verified *explicit* open-status statement in this audit is October
-2021. Relevant papers through July 2026 were checked without locating an
-earlier solution. These are different statements. A specialist's independent
-review and knowledge of circulating work remain the most useful next checks.
-No author was contacted and no publication submitted by this audit.
+The latest verified *explicit* open-status statement before the two 2026
+solutions in this audit is October 2021. Relevant papers through July 2026 were
+checked without locating an earlier solution. These are different statements.
+A specialist's independent review and knowledge of circulating work remain
+useful checks. No publication was submitted by this audit.
