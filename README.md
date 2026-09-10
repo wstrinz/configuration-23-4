@@ -19,8 +19,7 @@ The original audited `v1.0.1` existence snapshot is registered as
 
 ## Independent work by Wenhao Lu
 
-[Wenhao Lu](https://github.com/welu2027/23_4-configuration) (Millburn High
-School) independently obtained the same two configurations and an independent
+[Wenhao Lu](https://github.com/welu2027/23_4-configuration) independently obtained the same two configurations and an independent
 classification of the Klein-four-symmetric case. His route begins with a
 finite-field CP-SAT search, followed by a `nauty` quotient enumeration and
 exact Gröbner-basis calculations in Singular, replicated in Macaulay2.
